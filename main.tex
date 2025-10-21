@@ -1,0 +1,119 @@
+\documentclass{book}
+\usepackage{cite}
+\usepackage{titling}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel} 
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{acro}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{fancyhdr} % Custom headers and footers
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{changepage}
+\usepackage{float}
+\usepackage[a4paper,left=25mm,right=20mm, top=20mm, bottom=30mm]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup[figure]{labelfont={bf},textfont={sc}}
+\usepackage{eso-pic} % imagen de fondo
+\usepackage{transparent}
+\usepackage{ragged2e}
+\justifying
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+  backgroundcolor=\color{white},  
+  basicstyle=\footnotesize, 
+  breakatwhitespace=false,     
+  breaklines=true,  
+  captionpos=b,         
+  commentstyle=\color{mygreen},    
+  deletekeywords={...},           
+  escapeinside={\%*}{*)},   
+  extendedchars=true,   
+  frame=single,	  
+  keepspaces=true,      
+  keywordstyle=\color{blue},       
+  language=Matlab,     
+  morekeywords={*,...},      
+  %numbers=left,    
+  numbersep=5pt,           
+  numberstyle=\tiny\color{mygray},
+  rulecolor=\color{black},       
+  showspaces=false,        
+  showstringspaces=false,    
+  showtabs=false,                 
+  stepnumber=2,     
+  stringstyle=\color{mymauve}, 
+  tabsize=2,	 
+  title=\lstname       
+}
+\renewcommand{\lstlistingname}{Código}
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+%%% Paquete para manejar encabezados y pies de página:
+\pagestyle{fancy} % Makes all pages in the document conform to the custom headers and footers
+
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyhead[L]{\includegraphics[height=13mm]{imgs/Logo_Text.png}} % Empty left footer
+%\fancyhead[R]{\emph{Manual de usuario}} % Empty left footer
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{} % Empty center footer
+%\fancyfoot[L]{}
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\fancyfoot[C]{\footnotesize DIRECCIÓN: AVENIDA LÁZARO CARDENAS 306 PISO 1-A, RESIDENCIAL SAN AGUSTIN,\\ 
+SAN PEDRO GARZA GARCIA, NUEVO LEON, CP. 66260
+\\TELÉFONOS: +52 8111675492 - +52 8111675189
+} % Page numbering for right footer
+\renewcommand{\footrulewidth}{1.0pt}
+\setlength{\headheight}{25pt} % Customize the height of the header
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+%%%*********************************************************************************************
+\renewcommand{\lstlistingname}{Code}% Listing -> Algorithm
+
+\newcommand\imgFondo{ %
+   \put(0,0){ %
+     \parbox[b][\paperheight]{\paperwidth}{ %
+       \vfill
+       \centering
+       {%\transparent{1}
+       \includegraphics[width=0.9\paperwidth,height=\paperheight, %
+       keepaspectratio]{imgs/TextLogo.png} }
+       \vfill
+}}}  
+
+\AddToShipoutPictureBG{
+\imgFondo
+}
+
+\begin{document}
+\title{Manual de usuario}
+\author{\href{mailto:software@telintec.com.mx}{\emph{Sofware Telintec}}
+}
+\input{frontmatter/titlepage}
+\tableofcontents
+\input{content/introduction}
+\input{content/inventory}
+\input{content/administration}
+\input{content/epp}
+\input{content/cargos}
+\input{content/operaciones}
+\input{content/flujos}
+\end{document}

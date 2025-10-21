@@ -1,0 +1,1311 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  20 OCT 2025 18:12
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/L03508427/LatexFiles/Manual_Telintec/main.tex
+(c:/Users/L03508427/LatexFiles/Manual_Telintec/main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip51
+\thanksmargin=\skip52
+\droptitle=\skip53
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
+)
+\es@quottoks=\toks19
+\es@quotdepth=\count286
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 7.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 7.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box53
+\extrarowheight=\dimen151
+\NC@list=\toks20
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box54
+)
+\everycr=\toks21
+\minrowclearance=\skip56
+\rownum=\count287
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen152
+)) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks23
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks24
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks25
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+\c@ALC@unique=\count300
+\c@ALC@line=\count301
+\c@ALC@rem=\count302
+\c@ALC@depth=\count303
+\ALC@tlm=\skip60
+\algorithmicindent=\skip61
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count304
+\multirow@dima=\skip63
+\bigstrutjot=\dimen163
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen176
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
+\l__acro_tmpa_int=\count310
+\l__acro_tmpb_int=\count311
+\l__acro_tmpc_int=\count312
+\l__acro_tmpd_int=\count313
+Loading module `base' ...
+Loading module `interface' ...
+Loading module `aux' ...
+Loading module `properties' ...
+Loading module `acronyms' ...
+Loading module `formatting' ...
+Loading module `ppfixes' ...
+Loading module `tools' ...
+\l__acro_minimal_usage_int=\count314
+\l__acro_nest_int=\count315
+\g_acro_barrier_int=\count316
+\g_acro_barrier_total_int=\count317
+Loading module `commands' ...
+\l_acro_nest_level_int=\count318
+Loading module `templates' ...
+Loading module `list' ...
+Loading module `pages' ...
+\l__acro_pages_seq_threshold_int=\count319
+Loading module `locale' ...
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count320
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+Loading module `pdfsupport' ...
+Loading module `patch' ...
+Loading module `definitions' ...
+Loading module `upgrade' ...
+)
+==> First Aid for acro.sty applied!
+(C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count321
+\lst@gtempboxa=\box57
+\lst@token=\toks28
+\lst@length=\count322
+\lst@currlwidth=\dimen177
+\lst@column=\count323
+\lst@pos=\count324
+\lst@lostspace=\dimen178
+\lst@width=\dimen179
+\lst@newlines=\count325
+\lst@lineno=\count326
+\lst@maxwidth=\dimen180
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count327
+\lst@skipnumbers=\count328
+\lst@framebox=\box58
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip64
+\f@nch@offset@elh=\skip65
+\f@nch@offset@erh=\skip66
+\f@nch@offset@olh=\skip67
+\f@nch@offset@orh=\skip68
+\f@nch@offset@elf=\skip69
+\f@nch@offset@erf=\skip70
+\f@nch@offset@olf=\skip71
+\f@nch@offset@orf=\skip72
+\f@nch@height=\skip73
+\f@nch@footalignment=\skip74
+\f@nch@widthL=\skip75
+\f@nch@widthC=\skip76
+\f@nch@widthR=\skip77
+\@temptokenb=\toks29
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count329
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count332
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count333
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen182
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count334
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip78
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count340
+\mult@box=\box59
+\multicol@leftmargin=\dimen185
+\c@unbalance=\count341
+\c@collectmore=\count342
+\doublecol@number=\count343
+\multicoltolerance=\count344
+\multicolpretolerance=\count345
+\full@width=\dimen186
+\page@free=\dimen187
+\premulticols=\dimen188
+\postmulticols=\dimen189
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box60
+\last@line=\box61
+\mc@boxedresult=\box62
+\maxbalancingoverflow=\dimen190
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@firstbox=\box65
+\mult@gfirstbox=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\c@minrows=\count346
+\c@columnbadness=\count347
+\c@finalcolumnbadness=\count348
+\last@try=\dimen191
+\multicolovershoot=\dimen192
+\multicolundershoot=\dimen193
+\mult@nat@firstbox=\box103
+\colbreak@box=\box104
+\mc@col@check@num=\count349
+\g__mc_curr_col_int=\count350
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count351
+\cp@tempcnt=\count352
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count353
+\float@exts=\toks30
+\float@box=\box105
+\@float@everytoks=\toks31
+\@floatcapt=\box106
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count354
+\Gm@cntv=\count355
+\c@Gm@tempcnt=\count356
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
+\Gm@dimlist=\toks32
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen258
+\captionmargin=\dimen259
+\caption@leftmargin=\dimen260
+\caption@rightmargin=\dimen261
+\caption@width=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count357
+\c@continuedfloat=\count358
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen266
+\caption@adjustwidth@linewidth=\dimen267
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count359
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count360
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen268
+\ESO@tempdimb=\dimen269
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
+Package: transparent 2025-06-23 v1.6 Transparency with color stacks
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
+Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color stack (HO)
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+))) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip81
+\RaggedLeftLeftskip=\skip82
+\RaggedRightLeftskip=\skip83
+\CenteringRightskip=\skip84
+\RaggedLeftRightskip=\skip85
+\RaggedRightRightskip=\skip86
+\CenteringParfillskip=\skip87
+\RaggedLeftParfillskip=\skip88
+\RaggedRightParfillskip=\skip89
+\JustifyingParfillskip=\skip90
+\CenteringParindent=\skip91
+\RaggedLeftParindent=\skip92
+\RaggedRightParindent=\skip93
+\JustifyingParindent=\skip94
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 70.
+ (main.aux
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 15.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count361
+\scratchdimen=\dimen270
+\scratchbox=\box107
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen271
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks34
+) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
+File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 106.
+\c@lstlisting=\count367
+Package hyperref Info: Link coloring ON on input line 106.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.43198pt
+* \headheight=25.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(frontmatter/titlepage.tex
+<telintec-500.png, id=159, 376.40625pt x 376.40625pt>
+File: telintec-500.png Graphic file (type png)
+<use telintec-500.png>
+Package pdftex.def Info: telintec-500.png  used on input line 4.
+(pdftex.def)             Requested size: 422.52057pt x 422.55424pt.
+
+
+<imgs/TextLogo.png, id=161, 669.2503pt x 162.6075pt>
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 12.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[1
+
+
+{C:/Users/L03508427/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/TextLogo.png> <./telintec-500.png>])
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 111.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[2
+
+] (main.toc
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\L03508427\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ (content/introduction.tex
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[3]
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[4
+
+]
+Cap\'{\i }tulo 1.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 11.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[5]
+
+LaTeX Warning: Reference `fig:session' on page 6 undefined on input line 59.
+
+<imgs/inicio de sesion/inicio_sesion_desktop.png, id=231, 542.62724pt x 460.72125pt>
+File: imgs/inicio de sesion/inicio_sesion_desktop.png Graphic file (type png)
+<use imgs/inicio de sesion/inicio_sesion_desktop.png>
+Package pdftex.def Info: imgs/inicio de sesion/inicio_sesion_desktop.png  used on input line 65.
+(pdftex.def)             Requested size: 281.68515pt x 239.16165pt.
+
+
+<imgs/Logo_Text.png, id=232, 168.849pt x 49.932pt>
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 72.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 72.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[6 <./imgs/Logo_Text.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 102.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 102.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[7 <./imgs/inicio de sesion/inicio_sesion_desktop.png>]) (content/inventory.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[8]
+Cap\'{\i }tulo 2.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 10.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[9
+
+]
+<imgs/Almacen General/Dashboard/almacen_deahboard.png, id=266, 738.3585pt x 371.58826pt>
+File: imgs/Almacen General/Dashboard/almacen_deahboard.png Graphic file (type png)
+<use imgs/Almacen General/Dashboard/almacen_deahboard.png>
+Package pdftex.def Info: imgs/Almacen General/Dashboard/almacen_deahboard.png  used on input line 22.
+(pdftex.def)             Requested size: 211.26028pt x 106.31766pt.
+<imgs/Almacen General/Dashboard/almacen_acciones.png, id=267, 633.567pt x 429.40425pt>
+File: imgs/Almacen General/Dashboard/almacen_acciones.png Graphic file (type png)
+<use imgs/Almacen General/Dashboard/almacen_acciones.png>
+Package pdftex.def Info: imgs/Almacen General/Dashboard/almacen_acciones.png  used on input line 28.
+(pdftex.def)             Requested size: 211.26028pt x 143.17807pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 72.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 72.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[10 <./imgs/Almacen General/Dashboard/almacen_deahboard.png> <./imgs/Almacen General/Dashboard/almacen_acciones.png>]
+<imgs/InventoryApp.png, id=282, 1445.4pt x 767.86874pt>
+File: imgs/InventoryApp.png Graphic file (type png)
+<use imgs/InventoryApp.png>
+Package pdftex.def Info: imgs/InventoryApp.png  used on input line 105.
+(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
+<imgs/Almacen General/inventario/inventario_1_general.png, id=283, 788.44562pt x 476.78125pt>
+File: imgs/Almacen General/inventario/inventario_1_general.png Graphic file (type png)
+<use imgs/Almacen General/inventario/inventario_1_general.png>
+Package pdftex.def Info: imgs/Almacen General/inventario/inventario_1_general.png  used on input line 111.
+(pdftex.def)             Requested size: 211.26028pt x 127.75052pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 131.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 131.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[11 <./imgs/InventoryApp.png> <./imgs/Almacen General/inventario/inventario_1_general.png>]
+<imgs/InsApp.png, id=292, 1445.4pt x 767.86874pt>
+File: imgs/InsApp.png Graphic file (type png)
+<use imgs/InsApp.png>
+Package pdftex.def Info: imgs/InsApp.png  used on input line 150.
+(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
+File: imgs/Almacen General/inventario/inventario_1_general.png Graphic file (type png)
+<use imgs/Almacen General/inventario/inventario_1_general.png>
+Package pdftex.def Info: imgs/Almacen General/inventario/inventario_1_general.png  used on input line 156.
+(pdftex.def)             Requested size: 211.26028pt x 127.75052pt.
+<imgs/OutsApp.png, id=294, 1445.4pt x 767.86874pt>
+File: imgs/OutsApp.png Graphic file (type png)
+<use imgs/OutsApp.png>
+Package pdftex.def Info: imgs/OutsApp.png  used on input line 176.
+(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
+<imgs/OutsWebApp.png, id=295, 1014.03844pt x 514.17094pt>
+File: imgs/OutsWebApp.png Graphic file (type png)
+<use imgs/OutsWebApp.png>
+Package pdftex.def Info: imgs/OutsWebApp.png  used on input line 182.
+(pdftex.def)             Requested size: 211.26028pt x 107.11606pt.
+<imgs/MultipleMovesApp.png, id=296, 1445.4pt x 767.86874pt>
+File: imgs/MultipleMovesApp.png Graphic file (type png)
+<use imgs/MultipleMovesApp.png>
+Package pdftex.def Info: imgs/MultipleMovesApp.png  used on input line 196.
+(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
+<imgs/no-image.png, id=297, 358.36363pt x 358.36363pt>
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 202.
+(pdftex.def)             Requested size: 105.63014pt x 105.62886pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 217.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 217.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[12 <./imgs/InsApp.png>]
+<imgs/LectorApp.png, id=307, 957.5775pt x 480.29437pt>
+File: imgs/LectorApp.png Graphic file (type png)
+<use imgs/LectorApp.png>
+Package pdftex.def Info: imgs/LectorApp.png  used on input line 226.
+(pdftex.def)             Requested size: 328.6279pt x 164.8296pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 249.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 249.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[13 <./imgs/OutsApp.png> <./imgs/OutsWebApp.png> <./imgs/MultipleMovesApp.png> <./imgs/no-image.png>]) (content/administration.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[14 <./imgs/LectorApp.png>]
+Cap\'{\i }tulo 3.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 5.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[15
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 8.
+
+<imgs/Administracion/BASE DE DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png, id=333, 888.31876pt x 263.98625pt>
+File: imgs/Administracion/BASE DE DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png Graphic file (type png)
+<use imgs/Administracion/BASE DE DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png>
+Package pdftex.def Info: imgs/Administracion/BASE DE DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png  used on input line 23.
+(pdftex.def)             Requested size: 187.78532pt x 55.8053pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 43.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 65.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 77.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 77.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[16 <./imgs/Administracion/BASE DE DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png>]
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 97.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 129.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (content/epp.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[17]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[18]
+Cap\'{\i }tulo 4.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 19.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 33.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[19
+
+]
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 40.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 62.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (content/cargos.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[20]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[21]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[22
+
+]
+Cap\'{\i }tulo 5.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 18.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 41.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 53.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[23]
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 63.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+) (content/operaciones.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[24]
+Cap\'{\i }tulo 6.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 20.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 41.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 53.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[25
+
+]
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 62.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 82.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 94.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 94.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[26]
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 103.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+) (content/flujos.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[27]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[28
+
+]
+Cap\'{\i }tulo 7.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+File: imgs/no-image.png Graphic file (type png)
+<use imgs/no-image.png>
+Package pdftex.def Info: imgs/no-image.png  used on input line 20.
+(pdftex.def)             Requested size: 187.78532pt x 187.78282pt.
+)
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 119.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[29] (main.aux
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C049C308C485762589A96AA413DD34DF;6760.
+ ) 
+Here is how much of TeX's memory you used:
+ 20568 strings out of 468081
+ 375523 string characters out of 5423852
+ 973950 words of memory out of 5000000
+ 48818 multiletter control sequences out of 15000+600000
+ 642835 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,15n,79p,572b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc0900.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\L03508427\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
+Output written on main.pdf (29 pages, 1330105 bytes).
+PDF statistics:
+ 903 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+

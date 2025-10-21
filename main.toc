@@ -1,0 +1,55 @@
+\acswitchoff 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo del Manual }{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Descripción y proposito}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Usuarios principales}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Configuración del sistema}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Inicio de sesión}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Acceso según rol de usuario}{7}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Proceso de inicio de sesión}{7}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Recuperación de Contraseña }{8}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Recomendaciones de seguridad}{8}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {2}Almacen}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Panel principal-\textit {Dashboard}}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Características de la Pestaña Inicio}{10}{subsection.2.1.1}%
+\contentsline {subsubsection}{Notificaciones relevantes}{10}{section*.4}%
+\contentsline {subsubsection}{Menú principal personalizado}{10}{section*.5}%
+\contentsline {subsection}{\numberline {2.1.2}Elementos comunes del dashboard }{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Funcionalidades para almacén}{11}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Inventario}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Movimientos}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Entradas}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Salidas}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Movimientos múltiples}{12}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Solicitudes de Material}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Escaner}{13}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Administración }{15}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}3.1 Base de datos}{16}{subsection.3.0.1}%
+\contentsline {subsubsection}{3.1.1 Gestión de Base de Datos – Pestaña: Clientes}{16}{section*.11}%
+\contentsline {subsubsection}{3.1.2 Gestión de Base de Datos – Pestaña: Proveedores}{16}{section*.13}%
+\contentsline {subsection}{\numberline {3.0.2}3.2 Contratos}{16}{subsection.3.0.2}%
+\contentsline {subsubsection}{3.2.1 Crear Contrato}{16}{section*.15}%
+\contentsline {subsubsection}{Editar contrato}{17}{section*.17}%
+\contentsline {subsection}{\numberline {3.0.3}3.3 Órdenes de compra}{17}{subsection.3.0.3}%
+\contentsline {subsubsection}{3.3.1 Crear orden de compra desde solicitud de material (SM)}{17}{section*.18}%
+\contentsline {subsubsection}{Crear Nueva orden de compra (manual)}{17}{section*.20}%
+\contentsline {subsection}{\numberline {3.0.4}3.4 Entregas de Solicitudes de material (SM)}{17}{subsection.3.0.4}%
+\contentsline {subsubsection}{3.4.1 Paso 1: Seleccionar una solicitud de material (SM)}{17}{section*.21}%
+\contentsline {chapter}{\numberline {4}Almacén de Productos de Seguridad (EPP)}{19}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Inventario de productos de Seguridad (EPP)}{19}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Aprobar Vales de Seguridad}{19}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Flujo operativo de aprobación de vales}{20}{subsection.4.0.3}%
+\contentsline {chapter}{\numberline {5}Cargos}{23}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Asignación de cargos}{23}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Lista de líderes y gerentes con sus cargos}{23}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Editar cargo}{24}{subsection.5.0.3}%
+\contentsline {chapter}{\numberline {6}Operaciones}{25}{chapter.6}%
+\contentsline {subsection}{\numberline {6.0.1}Vales}{25}{subsection.6.0.1}%
+\contentsline {subsubsection}{Ventana General de Vales}{25}{section*.29}%
+\contentsline {subsubsection}{Crear vale de seguridad}{25}{section*.31}%
+\contentsline {subsubsection}{Editar vale de seguridad}{26}{section*.33}%
+\contentsline {subsubsection}{Crear vale de Herramientas/Equipo}{26}{section*.35}%
+\contentsline {subsubsection}{Editar vale de Herramientas/Equipo}{27}{section*.37}%
+\contentsline {chapter}{\numberline {7}Principales Procesos}{29}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Flujo de validación de vales}{29}{subsection.7.0.1}%
