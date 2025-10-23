@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {2.3}Movimientos}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Entradas}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Salidas}{12}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Movimientos múltiples}{12}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Movimientos múltiples}{13}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Solicitudes de Material}{13}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Escaner}{13}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Administración }{15}{chapter.3}%
@@ -30,12 +30,12 @@
 \contentsline {subsubsection}{3.1.2 Gestión de Base de Datos – Pestaña: Proveedores}{16}{section*.13}%
 \contentsline {subsection}{\numberline {3.0.2}3.2 Contratos}{16}{subsection.3.0.2}%
 \contentsline {subsubsection}{3.2.1 Crear Contrato}{16}{section*.15}%
-\contentsline {subsubsection}{Editar contrato}{17}{section*.17}%
+\contentsline {subsubsection}{Editar contrato}{16}{section*.17}%
 \contentsline {subsection}{\numberline {3.0.3}3.3 Órdenes de compra}{17}{subsection.3.0.3}%
 \contentsline {subsubsection}{3.3.1 Crear orden de compra desde solicitud de material (SM)}{17}{section*.18}%
 \contentsline {subsubsection}{Crear Nueva orden de compra (manual)}{17}{section*.20}%
-\contentsline {subsection}{\numberline {3.0.4}3.4 Entregas de Solicitudes de material (SM)}{17}{subsection.3.0.4}%
-\contentsline {subsubsection}{3.4.1 Paso 1: Seleccionar una solicitud de material (SM)}{17}{section*.21}%
+\contentsline {subsection}{\numberline {3.0.4}3.4 Entregas de Solicitudes de material (SM)}{18}{subsection.3.0.4}%
+\contentsline {subsubsection}{3.4.1 Paso 1: Seleccionar una solicitud de material (SM)}{18}{section*.21}%
 \contentsline {chapter}{\numberline {4}Almacén de Productos de Seguridad (EPP)}{19}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}Inventario de productos de Seguridad (EPP)}{19}{subsection.4.0.1}%
 \contentsline {subsection}{\numberline {4.0.2}Aprobar Vales de Seguridad}{19}{subsection.4.0.2}%
