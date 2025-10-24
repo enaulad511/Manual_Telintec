@@ -94,13 +94,6 @@ Este diseño modular asegura que cada usuario tenga acceso directo y simplificad
  
 
 \section{Inventario}
-\begin{justify}
-En esta pestaña, los usuarios pueden gestionar los productos en la base de datos, ya sea para dar de alta un nuevo producto, actualizar información existente o generar reportes.
-\end{justify}
-\begin{justify}
-Registro de productos: Los usuarios pueden registrar nuevos productos en el sistema, incluyendo información clave como códigos, descripciones, categorías, proveedor y marca. La interfaz para estas operaciones se puede observar en las figuras \ref{fig:inventory}. Es importante resaltar que se puede agregar el código de barras manualmente. 
-\end{justify}
-
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=0.8\textwidth]{imgs/Almacen_General/inventario/inventario_1_general.png}
@@ -108,15 +101,21 @@ Registro de productos: Los usuarios pueden registrar nuevos productos en el sist
 \label{fig:inventory}
 \end{figure}
 
+\begin{justify}
+En esta pestaña, los usuarios pueden gestionar los productos en la base de datos, ya sea para dar de alta un nuevo producto, actualizar información existente o generar reportes.
+\end{justify}
+\begin{justify}
+Registro de productos: Los usuarios pueden registrar nuevos productos en el sistema, incluyendo información clave como códigos, descripciones, categorías, proveedor y marca. La interfaz para estas operaciones se puede observar en las figuras \ref{fig:inventory}. Es importante resaltar que se puede agregar el código de barras manualmente. 
+\end{justify}
 
 
 
+
+\begin{justify}
 Además, hay algunas restricciones del sistema que deben tomarse en cuenta: 
-
 Al dar de alta un producto nuevo en el inventario, este puede registrarse mediante escáner o manualmente, y es obligatorio llenar todos los campos solicitados. Si se desea actualizar el stock de un producto existente, es necesario considerar que algunos productos antiguos pueden no tener información completa, como categoría, proveedor o códigos. Esto podría generar errores si no se actualizan estos campos junto con el stock. 
-
 Es fundamental ser preciso al llenar el campo de “códigos”, ya que no se aceptan caracteres especiales. Funciones principales: La pestaña también permite realizar acciones clave como: 
-
+\end{justify}
 \begin{itemize}
     \item Crear, actualizar y eliminar productos. 
 
@@ -130,6 +129,162 @@ Es fundamental ser preciso al llenar el campo de “códigos”, ya que no se ac
 
     \item Consulta de existencias: Proporciona una vista actualizada de las existencias de productos disponibles, mostrando detalles como cantidades en almacén, ubicación y alertas de stock bajo. Además, el sistema permite visualizar los productos mediante una tabla, con la opción de buscarlos utilizando un buscador integrado. 
 \end{itemize}
+
+\subsection{Creación de un nuevo producto}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.3\textwidth]{imgs/Almacen_General/inventario/inventario_crear.png}
+\caption{Interfaz para la creación de un nuevo producto en el sistema.}
+\label{fig:crearProducto}
+\end{figure}
+
+\begin{justify}
+Para registrar un producto en el sistema, el usuario deberá llenar varios campos personalizados con las características necesarias.
+\end{justify}
+
+\paragraph{Campos requeridos}
+
+\begin{itemize}
+  \item \textbf{Nombre del producto}.
+  \item \textbf{Código de barras}: Debe llenarse con su consecutivo correspondiente (puede capturarse manualmente o con escáner).
+  \item \textbf{Unidad de medida (UDM)}: Especificar si es \emph{pieza}, \emph{metro}, \emph{litro}, etc.
+  \item \textbf{Stock}.
+  \item \textbf{Categoría} (\emph{campo requerido por el sistema}).
+  \item \textbf{Proveedor} (\emph{campo requerido por el sistema}).
+  \item \textbf{Marca del producto}.
+  \item \textbf{Tipo de producto}: Indicar si es \emph{herramienta} o \emph{producto interno}.
+\end{itemize}
+
+
+\paragraph{Consideraciones sobre categorías y proveedores}
+
+\begin{itemize}
+  \item \textbf{Productos genéricos}: Algunos productos pueden pertenecer a categorías donde la marca no es relevante (por ejemplo, cables o tornillos estándar). En estos casos, selecciona la opción \emph{“Genérico”} al crear el producto.
+  \item \textbf{Productos con marca variable}: La marca puede depender del proveedor. Si el producto no es genérico, especifica el \textbf{número de parte} para asegurar una identificación precisa y evitar confusiones en la compra y gestión del inventario.
+  \item \textbf{Recomendación}: Revisa siempre la información del proveedor antes de registrar el producto para garantizar que la \emph{marca} y el \emph{número de parte} sean correctos.
+\end{itemize}
+
+
+\paragraph{Restricciones del sistema}
+
+\begin{itemize}
+  \item Al dar de alta un producto nuevo en el inventario, este puede registrarse mediante \emph{escáner} o \emph{manualmente}; es \textbf{obligatorio} llenar todos los campos solicitados.
+  \item Al actualizar el \emph{stock} de un producto existente, considera que algunos productos antiguos pueden no tener información completa (como \emph{categoría}, \emph{proveedor} o \emph{códigos}). 
+  \item Si estos campos no se actualizan correctamente junto con el \emph{stock}, pueden generarse \textbf{errores} en el sistema.
+  \item Si el usuario no conoce algún detalle requerido, deberá \textbf{notificar al departamento de TI}.
+\end{itemize}
+
+
+\paragraph{Registro}
+
+\begin{itemize}
+  \item Presiona el botón \emph{“Crear”} para registrar el producto en la base de datos.
+  \item El sistema notificará inmediatamente el resultado en la parte inferior de la pantalla.
+\end{itemize}
+
+ 
+% acrualizacion
+\subsection{Actualización de productos existentes}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{imgs/Almacen_General/inventario/inventario_editar.png}
+\caption{Interfaz para la modificación de productos existentes en el sistema.}
+\label{fig:modificarProducto}
+\end{figure}
+
+\begin{justify}
+Para modificar un producto previamente creado, el sistema ofrece dos métodos: a través de la lista de productos o utilizando el buscador.
+\end{justify}
+
+\paragraph{Modificación desde la lista de productos}
+\begin{justify}
+En la parte inferior de la pantalla, encontrarás una lista con todos los productos registrados, donde se muestran campos como \emph{nombre}, \emph{SKU}, \emph{stock}, \emph{categoría}, \emph{proveedor} y \emph{marca}.  
+A la derecha de cada producto, se visualizan dos botones:
+\end{justify}
+
+
+\begin{itemize}
+  \item \textbf{Editar}: Permite actualizar los datos del producto.
+  \item \textbf{Eliminar}: Borra el producto del sistema (no aplicable en este caso).
+\end{itemize}
+
+
+\begin{justify}
+Al hacer clic en el botón \emph{“Editar”}, se abrirá una ventana con toda la información del producto.  
+Una vez realizadas las modificaciones necesarias, el usuario deberá presionar el botón \emph{“Actualizar Producto”} para guardar los cambios.  
+El sistema confirmará la acción mostrando un mensaje en la parte inferior de la pantalla.
+\end{justify}
+
+% eliminar
+\subsection{Eliminar un producto}
+
+\begin{justify}
+\textbf{Advertencia:} Una vez que elimines un producto, no podrás recuperarlo. Asegúrate de que la eliminación sea definitiva antes de confirmar la acción.
+\end{justify}
+
+\paragraph{Funciones adicionales}
+\begin{justify}
+En la parte superior de la ventana de inventario, el sistema cuenta con dos selectores que permiten filtrar los productos de manera eficiente según su \textbf{categoría} o \textbf{proveedor}.
+\end{justify}
+
+\paragraph{Filtro por categoría}
+\begin{justify}
+En el selector ubicado en la parte superior izquierda, puedes elegir una categoría específica para visualizar solo los productos pertenecientes a ella.  
+Si no seleccionas ninguna categoría, el sistema mostrará por defecto todas las categorías.
+\end{justify}
+
+\paragraph{Filtro por proveedor}
+\begin{justify}
+En el selector de la parte superior derecha, puedes filtrar los productos según su proveedor.  
+Funciona de la misma manera que el filtro por categoría: si no seleccionas un proveedor en específico, se mostrarán todos los productos sin distinción de proveedor.
+\end{justify}
+
+\paragraph{Combinación de filtros}
+\begin{justify}
+Puedes usar ambos selectores simultáneamente para visualizar productos de una categoría específica y un proveedor en particular, facilitando la gestión del inventario.
+\end{justify}
+
+\begin{justify}
+\textbf{Nota:} Estos filtros no modifican los productos, solo ayudan a visualizarlos de manera organizada según tus necesidades.
+\end{justify}
+
+\subsubsection{Exportación y reportes del inventario}
+
+\begin{justify}
+Para facilitar la gestión y el conteo de productos en almacén, el sistema permite exportar e imprimir el inventario, asegurando un control más preciso y accesible.
+\end{justify}
+
+\paragraph{Descarga e impresión del inventario}
+\begin{justify}
+El sistema cuenta con dos opciones de descarga, ideales para distintos propósitos en almacén:
+\end{justify}
+
+
+\begin{itemize}
+  \item \textbf{Descargar en Excel:} Permite generar un archivo editable para análisis y gestión en hojas de cálculo.
+  \item \textbf{Descargar en PDF:} Genera un documento listo para imprimir, útil para el conteo físico del inventario en almacén.
+\end{itemize}
+
+
+\begin{justify}
+Estas opciones de exportación pueden observarse en la \textbf{Figura~\ref{fig:exportarInventario}}, donde se muestran los botones de descarga disponibles para generar los archivos en formato Excel o PDF directamente desde la interfaz del sistema.
+\end{justify}
+
+\begin{justify}
+\textbf{Importante:} Se recomienda imprimir el inventario en formato PDF cuando el personal de almacén necesite realizar verificaciones manuales durante el conteo.
+\end{justify}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{imgs/Almacen_General/inventario/inventario_pdf_excel_down.png}
+\caption{Opciones de exportación e impresión del inventario en formatos Excel y PDF.}
+\label{fig:exportarInventario}
+\end{figure}
+
+
+
 
 \section{Movimientos}
 

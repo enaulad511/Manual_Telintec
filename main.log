@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.23)  23 OCT 2025 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.23)  23 OCT 2025 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,27 +857,38 @@ File: imgs/TextLogo.png Graphic file (type png)
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 74.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
 [10{C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./imgs/Almacen_General/Dashboard/almacen_acciones.png> <./imgs/Almacen_General/Dashboard/almacen_deahboard.png>]
-
-LaTeX Warning: Reference `fig:inventory' on page 11 undefined on input line 101.
-
 <imgs/Almacen_General/inventario/inventario_1_general.png, id=93, 788.44562pt x 476.78125pt>
 File: imgs/Almacen_General/inventario/inventario_1_general.png Graphic file (type png)
 <use imgs/Almacen_General/inventario/inventario_1_general.png>
-Package pdftex.def Info: imgs/Almacen_General/inventario/inventario_1_general.png  used on input line 106.
+Package pdftex.def Info: imgs/Almacen_General/inventario/inventario_1_general.png  used on input line 99.
 (pdftex.def)             Requested size: 375.57782pt x 227.11365pt.
 
-LaTeX Warning: Reference `fig:ins' on page 11 undefined on input line 137.
 
-<imgs/InsApp.png, id=94, 1445.4pt x 767.86874pt>
-File: imgs/InsApp.png Graphic file (type png)
-<use imgs/InsApp.png>
-Package pdftex.def Info: imgs/InsApp.png  used on input line 142.
-(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
-<imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png, id=95, 800.49063pt x 412.54124pt>
-File: imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png Graphic file (type png)
-<use imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png>
-Package pdftex.def Info: imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png  used on input line 148.
-(pdftex.def)             Requested size: 211.26028pt x 108.86967pt.
+LaTeX Warning: Reference `fig:inventory' on page 11 undefined on input line 108.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 118.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 118.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[11 <./imgs/Almacen_General/inventario/inventario_1_general.png>]
+<imgs/Almacen_General/inventario/inventario_crear.png, id=103, 247.92625pt x 377.91188pt>
+File: imgs/Almacen_General/inventario/inventario_crear.png Graphic file (type png)
+<use imgs/Almacen_General/inventario/inventario_crear.png>
+Package pdftex.def Info: imgs/Almacen_General/inventario/inventario_crear.png  used on input line 137.
+(pdftex.def)             Requested size: 140.84258pt x 214.68542pt.
 
 
 File: imgs/Logo_Text.png Graphic file (type png)
@@ -895,41 +906,102 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 154.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[11]
+[12 <./imgs/Almacen_General/inventario/inventario_crear.png>]
+<imgs/Almacen_General/inventario/inventario_editar.png, id=112, 209.28188pt x 322.70563pt>
+File: imgs/Almacen_General/inventario/inventario_editar.png Graphic file (type png)
+<use imgs/Almacen_General/inventario/inventario_editar.png>
+Package pdftex.def Info: imgs/Almacen_General/inventario/inventario_editar.png  used on input line 192.
+(pdftex.def)             Requested size: 140.84258pt x 217.17183pt.
 
-LaTeX Warning: Reference `fig:outs' on page 12 undefined on input line 163.
+Underfull \vbox (badness 4156) has occurred while \output is active []
 
-<imgs/OutsApp.png, id=103, 1445.4pt x 767.86874pt>
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 196.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 196.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[13]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 245.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 245.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[14 <./imgs/Almacen_General/inventario/inventario_editar.png>]
+
+LaTeX Warning: Reference `fig:exportarInventario' on page 15 undefined on input line 272.
+
+<imgs/Almacen_General/inventario/inventario_pdf_excel_down.png, id=134, 225.84375pt x 67.75313pt>
+File: imgs/Almacen_General/inventario/inventario_pdf_excel_down.png Graphic file (type png)
+<use imgs/Almacen_General/inventario/inventario_pdf_excel_down.png>
+Package pdftex.def Info: imgs/Almacen_General/inventario/inventario_pdf_excel_down.png  used on input line 281.
+(pdftex.def)             Requested size: 375.57782pt x 112.68826pt.
+
+LaTeX Warning: Reference `fig:ins' on page 15 undefined on input line 292.
+
+<imgs/InsApp.png, id=135, 1445.4pt x 767.86874pt>
+File: imgs/InsApp.png Graphic file (type png)
+<use imgs/InsApp.png>
+Package pdftex.def Info: imgs/InsApp.png  used on input line 297.
+(pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
+<imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png, id=136, 800.49063pt x 412.54124pt>
+File: imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png Graphic file (type png)
+<use imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png>
+Package pdftex.def Info: imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png  used on input line 303.
+(pdftex.def)             Requested size: 211.26028pt x 108.86967pt.
+
+LaTeX Warning: Reference `fig:outs' on page 15 undefined on input line 318.
+
+<imgs/OutsApp.png, id=137, 1445.4pt x 767.86874pt>
 File: imgs/OutsApp.png Graphic file (type png)
 <use imgs/OutsApp.png>
-Package pdftex.def Info: imgs/OutsApp.png  used on input line 168.
+Package pdftex.def Info: imgs/OutsApp.png  used on input line 323.
 (pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
-<imgs/OutsWebApp.png, id=104, 1014.03844pt x 514.17094pt>
+<imgs/OutsWebApp.png, id=138, 1014.03844pt x 514.17094pt>
 File: imgs/OutsWebApp.png Graphic file (type png)
 <use imgs/OutsWebApp.png>
-Package pdftex.def Info: imgs/OutsWebApp.png  used on input line 174.
+Package pdftex.def Info: imgs/OutsWebApp.png  used on input line 329.
 (pdftex.def)             Requested size: 211.26028pt x 107.11606pt.
-<imgs/MultipleMovesApp.png, id=105, 1445.4pt x 767.86874pt>
+<imgs/MultipleMovesApp.png, id=139, 1445.4pt x 767.86874pt>
 File: imgs/MultipleMovesApp.png Graphic file (type png)
 <use imgs/MultipleMovesApp.png>
-Package pdftex.def Info: imgs/MultipleMovesApp.png  used on input line 188.
+Package pdftex.def Info: imgs/MultipleMovesApp.png  used on input line 343.
 (pdftex.def)             Requested size: 211.26028pt x 112.22272pt.
-<imgs/no-image.png, id=106, 358.36363pt x 358.36363pt>
+<imgs/no-image.png, id=140, 358.36363pt x 358.36363pt>
 File: imgs/no-image.png Graphic file (type png)
 <use imgs/no-image.png>
-Package pdftex.def Info: imgs/no-image.png  used on input line 194.
+Package pdftex.def Info: imgs/no-image.png  used on input line 349.
 (pdftex.def)             Requested size: 105.63014pt x 105.62886pt.
 
-LaTeX Warning: Reference `fig:multimoves' on page 12 undefined on input line 202.
-
-
-Underfull \vbox (badness 1087) has occurred while \output is active []
+LaTeX Warning: Reference `fig:multimoves' on page 15 undefined on input line 357.
 
 
 
 File: imgs/Logo_Text.png Graphic file (type png)
 <use imgs/Logo_Text.png>
-Package pdftex.def Info: imgs/Logo_Text.png  used on input line 203.
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 358.
 (pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
 
 Package fancyhdr Warning: \headheight is too small (25.0pt): 
@@ -940,32 +1012,35 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 
 File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
-Package pdftex.def Info: imgs/TextLogo.png  used on input line 203.
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 358.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[12 <./imgs/Almacen_General/inventario/inventario_1_general.png> <./imgs/InsApp.png> <./imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png>]
-<imgs/LectorApp.png, id=119, 957.5775pt x 480.29437pt>
+[15 <./imgs/Almacen_General/inventario/inventario_pdf_excel_down.png>]
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 370.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 370.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[16 <./imgs/InsApp.png> <./imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png> <./imgs/OutsApp.png> <./imgs/OutsWebApp.png> <./imgs/MultipleMovesApp.png> <./imgs/no-image.png>]
+<imgs/LectorApp.png, id=168, 957.5775pt x 480.29437pt>
 File: imgs/LectorApp.png Graphic file (type png)
 <use imgs/LectorApp.png>
-Package pdftex.def Info: imgs/LectorApp.png  used on input line 218.
+Package pdftex.def Info: imgs/LectorApp.png  used on input line 373.
 (pdftex.def)             Requested size: 328.6279pt x 164.8296pt.
-
-
-File: imgs/Logo_Text.png Graphic file (type png)
-<use imgs/Logo_Text.png>
-Package pdftex.def Info: imgs/Logo_Text.png  used on input line 234.
-(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
-
-Package fancyhdr Warning: \headheight is too small (25.0pt): 
-(fancyhdr)                Make it at least 40.58861pt, for example:
-(fancyhdr)                \setlength{\headheight}{40.58861pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
-
-File: imgs/TextLogo.png Graphic file (type png)
-<use imgs/TextLogo.png>
-Package pdftex.def Info: imgs/TextLogo.png  used on input line 234.
-(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[13 <./imgs/OutsApp.png> <./imgs/OutsWebApp.png> <./imgs/MultipleMovesApp.png> <./imgs/no-image.png>]) (content/administration.tex
+) (content/administration.tex
 
 File: imgs/Logo_Text.png Graphic file (type png)
 <use imgs/Logo_Text.png>
@@ -982,7 +1057,26 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[14 <./imgs/LectorApp.png>]
+[17 <./imgs/LectorApp.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[18
+
+]
 Cap\'{\i }tulo 3.
 
 
@@ -990,9 +1084,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 5.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[15
-
-]
+[19]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 8.
@@ -1048,7 +1140,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 89.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[16]
+[20]
 File: imgs/no-image.png Graphic file (type png)
 <use imgs/no-image.png>
 Package pdftex.def Info: imgs/no-image.png  used on input line 97.
@@ -1074,7 +1166,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 121.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[17]
+[21]
 File: imgs/no-image.png Graphic file (type png)
 <use imgs/no-image.png>
 Package pdftex.def Info: imgs/no-image.png  used on input line 129.
@@ -1096,7 +1188,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[18]
+[22]
 Cap\'{\i }tulo 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -1112,7 +1204,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 33.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[19
+[23
 
 ]
 File: imgs/no-image.png Graphic file (type png)
@@ -1144,7 +1236,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[20]
+[24]
 
 File: imgs/Logo_Text.png Graphic file (type png)
 <use imgs/Logo_Text.png>
@@ -1161,7 +1253,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[21]
+[25]
 
 File: imgs/Logo_Text.png Graphic file (type png)
 <use imgs/Logo_Text.png>
@@ -1178,7 +1270,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[22
+[26
 
 ]
 Cap\'{\i }tulo 5.
@@ -1203,7 +1295,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 53.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[23]
+[27]
 File: imgs/no-image.png Graphic file (type png)
 <use imgs/no-image.png>
 Package pdftex.def Info: imgs/no-image.png  used on input line 63.
@@ -1225,7 +1317,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[24]
+[28]
 Cap\'{\i }tulo 6.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -1248,7 +1340,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 53.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[25
+[29
 
 ]
 File: imgs/no-image.png Graphic file (type png)
@@ -1280,7 +1372,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 94.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[26]
+[30]
 File: imgs/no-image.png Graphic file (type png)
 <use imgs/no-image.png>
 Package pdftex.def Info: imgs/no-image.png  used on input line 103.
@@ -1302,7 +1394,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[27]
+[31]
 
 File: imgs/Logo_Text.png Graphic file (type png)
 <use imgs/Logo_Text.png>
@@ -1319,7 +1411,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[28
+[32
 
 ]
 Cap\'{\i }tulo 7.
@@ -1337,7 +1429,7 @@ File: imgs/TextLogo.png Graphic file (type png)
 <use imgs/TextLogo.png>
 Package pdftex.def Info: imgs/TextLogo.png  used on input line 120.
 (pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
-[29] (main.aux
+[33] (main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -1359,20 +1451,20 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C049C308C485762589A96AA413DD34DF;6760.
+(rerunfilecheck)             After:  1C382467349B7F2DDFD886B3D838D48A;7409.
  ) 
 Here is how much of TeX's memory you used:
- 20642 strings out of 468081
- 378944 string characters out of 5425788
- 974070 words of memory out of 5000000
- 48902 multiletter control sequences out of 15000+600000
+ 20689 strings out of 468081
+ 380592 string characters out of 5425788
+ 973070 words of memory out of 5000000
+ 48928 multiletter control sequences out of 15000+600000
  682583 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,575b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,575b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (29 pages, 1350800 bytes).
+Output written on main.pdf (33 pages, 1416292 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761245622.14172 "c:/Users/eugen/proyectosTELINTEC/Manual_Telintec/main.tex" "main.pdf" "main" 1761245630.55538 2
+["pdflatex"] 1761250448.2262 "c:/Users/eugen/proyectosTELINTEC/Manual_Telintec/main.tex" "main.pdf" "main" 1761250456.66112 2
   "C:/Users/eugen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761243893 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/eugen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761243876 13321623 0b52a164da99788139cb37f159f56ec6 ""
   "C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -127,13 +127,16 @@
   "content/epp.tex" 1761088674 2567 e3b11f86415465529171bf93a88ed2d0 ""
   "content/flujos.tex" 1761088674 1588 d72fa0bf729e123604226440baa9ce0d ""
   "content/introduction.tex" 1761175569 9073 7fbc52ea91ee9c46c3f041a2e3f52506 ""
-  "content/inventory.tex" 1761245607 13332 346ebb81d5a74918c43cb198312ba9b1 ""
+  "content/inventory.tex" 1761250434 20757 222b34fb0c138be1c98c71b86cf8f214 ""
   "content/operaciones.tex" 1761088674 3469 244165b539c43f7a9450225365de9023 ""
   "frontmatter/titlepage.tex" 1761088674 319 e1ee8a0f1715044660d7c10609f9ad81 ""
   "imgs/Administracion/BASE_DE _DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png" 0 -1 0 ""
   "imgs/Almacen_General/Dashboard/almacen_acciones.png" 1761088675 32674 2e6345245abd4dde9045522a4068a76d ""
   "imgs/Almacen_General/Dashboard/almacen_deahboard.png" 1761088675 232067 79373f82b669848d191928dda91858cc ""
   "imgs/Almacen_General/inventario/inventario_1_general.png" 1761088675 143881 b88f7eba49c5a3a51d9c62cf0c6125e4 ""
+  "imgs/Almacen_General/inventario/inventario_crear.png" 1761088675 25249 529f6b944ca080007a20b9c8f756401c ""
+  "imgs/Almacen_General/inventario/inventario_editar.png" 1761088675 21914 928ae66a584ec417c57e79c9f4209b9a ""
+  "imgs/Almacen_General/inventario/inventario_pdf_excel_down.png" 1761088675 6037 c6310291a60f1a8eede0130b1301084c ""
   "imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png" 1761088675 119980 bf4cfad46538669329faa5546ac3e84b ""
   "imgs/InsApp.png" 1761088675 135270 e06d11137faec94ea7bd615b09a5111c ""
   "imgs/LectorApp.png" 1761088675 18705 8bb328b724ab661899b2053444e1fb42 ""
@@ -144,10 +147,10 @@
   "imgs/TextLogo.png" 1761088675 60916 830fff21e094b4d9224f82c6957f75a7 ""
   "imgs/inicio_de_sesion/inicio_sesion_desktop.png" 1761088675 81132 5a07ea63af1f744b085b6fe7f63d2303 ""
   "imgs/no-image.png" 1761088675 37537 16dd1ecb1ca6d37b3bb98c1b9e21de2d ""
-  "main.aux" 1761245629 16423 137de39bb6018a3dc5b7a343c53d7054 "pdflatex"
-  "main.out" 1761245629 6760 c049c308c485762589a96aa413dd34df "pdflatex"
+  "main.aux" 1761250455 19099 7f4c8539490365fa99fe5cb2c5444746 "pdflatex"
+  "main.out" 1761250455 7409 1c382467349b7f2ddfd886b3d838d48a "pdflatex"
   "main.tex" 1761174750 3903 6cd5c19e7c87e6ed8a289ec8be128a4f ""
-  "main.toc" 1761245629 4660 9b77ae11e0ec28d9cdf3ebe093a72117 "pdflatex"
+  "main.toc" 1761250455 5766 b9cc0e2f2f7b7e2d5ed73b78087c984d "pdflatex"
   "telintec-500.png" 1761088675 37430 e7103d3feae1b0bafe0a5bec11800975 ""
   (generated)
   "main.aux"
