@@ -287,74 +287,618 @@ Estas opciones de exportación pueden observarse en la \textbf{Figura~\ref{fig:e
 
 
 \section{Movimientos}
+\begin{justify}
+    
+El módulo de \textbf{Movimientos} permite registrar y gestionar entradas y salidas de productos en el inventario. 
 
-\subsection{Entradas}
-Esta pestaña (Figura \ref{fig:ins}) se centra en la administración de los movimientos de inventario, ofreciendo las siguientes funciones: 
+En la parte superior, se pueden observar dos pestañas (Figura \ref{fig:movimientos}), las cuales permiten acceder a diferentes formas de gestión:
+\end{justify}
 
-\begin{figure}[ht!]
-\centering
-\begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=\textwidth]{imgs/InsApp.png}
-    \caption{Aplicación de escritorio.}
-    \label{fig:ins1}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png}
-    \caption{Apliación web.}
-    \label{fig:ins2}
-\end{subfigure}        
-\caption{Ventana de creación de entradas.}
-\label{fig:ins}
+
+\begin{itemize}
+    \item \textbf{Movimientos Individuales}
+    \item \textbf{Movimientos Múltiples}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png}
+    \caption{Ventana principal del módulo de Movimientos.}
+    \label{fig:movimientos}
+\end{figure}
+
+% \subsection{Entradas}
+% Esta pestaña (Figura \ref{fig:ins}) se centra en la administración de los movimientos de inventario, ofreciendo las siguientes funciones: 
+
+% \begin{figure}[ht!]
+% \centering
+% \begin{subfigure}{0.45\textwidth}
+%     \includegraphics[width=\textwidth]{imgs/InsApp.png}
+%     \caption{Aplicación de escritorio.}
+%     \label{fig:ins1}
+% \end{subfigure}
+% \hfill
+% \begin{subfigure}{0.45\textwidth}
+%     \includegraphics[width=\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_crear.png}
+%     \caption{Apliación web.}
+%     \label{fig:ins2}
+% \end{subfigure}        
+% \caption{Ventana de creación de entradas.}
+% \label{fig:ins}
+% \end{figure}
+
+
+
+% Aquí, se permite registrar la recepción de productos en el inventario, ya sea por compras, devoluciones o ajustes. Visualiza los productos y ofrece las opciones de agregar una nueva entrada, actualizarla o eliminarla. Incluye un lector de código de barras para escanear los productos existentes a los cuales se desea dar entrada. 
+% \textbf{Importante}: No es posible crear productos directamente desde esta opción de entrada. 
+
+% \subsection{Salidas}
+
+% En esta interfaz (Figura \ref{fig:outs}), se facilita el registro de productos que salen del almacén, ya sea por ventas o devoluciones de clientes. Puedes crear, actualizar o eliminar una salida, y también hacerlo utilizando el lector de código de barras, simplemente escaneando el producto y completando los campos requeridos. 
+
+% \begin{figure}[ht!]
+% \centering
+% \begin{subfigure}{0.45\textwidth}
+%     \includegraphics[width=\textwidth]{imgs/OutsApp.png}
+%     \caption{Aplicación de escritorio.}
+%     \label{fig:outs1}
+% \end{subfigure}
+% \hfill
+% \begin{subfigure}{0.45\textwidth}
+%     \includegraphics[width=\textwidth]{imgs/OutsWebApp.png}
+%     \caption{Apliación web.}
+%     \label{fig:outs2}
+% \end{subfigure}        
+% \caption{Ventana de inventario.}
+% \label{fig:outs}
+% \end{figure}
+
+\subsection{Movimientos Individuales}
+\begin{justify}
+    Esta sección muestra una lista de movimientos en formato de tabla, con sus respectivos campos (Figura \ref{fig:movimientos_ind}). 
+
+Entre las funciones principales se encuentran:
+\end{justify}
+\begin{itemize}
+    \item \textbf{Búsqueda rápida:} En la parte superior de la tabla hay un buscador donde puedes encontrar un movimiento por nombre, número de parte o código SKU.
+    \item \textbf{Editar un movimiento:} En la parte derecha de cada registro hay un botón de editar que permite modificar los detalles del movimiento.
+    \item \textbf{Crear un nuevo movimiento:} Permite registrar una nueva entrada o salida de producto. Para facilitar la selección, el campo de nombre cuenta con un buscador de productos.
+    \item \textbf{Stock disponible:} Antes de confirmar, el sistema muestra una etiqueta con el stock disponible del producto seleccionado.
+    \item \textbf{Confirmación del movimiento:} Una vez completados los campos requeridos, el sistema notificará si el movimiento se ha creado con éxito.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/movimientos_indiv.png}
+    \caption{Vista principal del módulo de Movimientos Individuales.}
+    \label{fig:movimientos_ind1}
+\end{figure}
+
+Además, al seleccionar la opción \textbf{Crear nuevo movimiento}, se muestra una ventana emergente (Figura \ref{fig:movimientos_ind2}) donde el usuario puede registrar los datos del movimiento individual.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/crear_movimiento.png}
+    \caption{Ventana emergente para crear un movimiento individual.}
+    \label{fig:movimientos_ind2}
+\end{figure}
+
+\begin{justify}
+    
+    \textbf{Consideración}: Algunos productos más antiguos en el sistema tienen restricciones al intentar actualizar el stock. Si es necesario, deberás actualizar también nuevos campos que se añadan a petición de administración. 
+\end{justify}
+
+\section{Descarga de Movimientos}
+\begin{justify}
+    
+    El sistema permite descargar los registros de movimientos aplicando filtros específicos (Figura \ref{fig:descarga_movimientos}).  
+    Entre las principales opciones disponibles se encuentran:
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Rango de fechas:} Permite seleccionar el período del cual deseas obtener los movimientos registrados.
+    \item \textbf{Tipo de movimiento:} Puedes escoger entre entradas, salidas o ambos tipos.
+    \item \textbf{Formatos disponibles:} Es posible descargar el informe en formato \textit{Excel} o \textit{PDF}.
+\end{itemize}
+
+\textbf{Importante:} Los movimientos \textbf{no pueden eliminarse}, por lo que es crucial verificar la información antes de crearlos o modificarlos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/movimientos/movimientos_individuales/descarga_pdf_excel.png}
+    \caption{Ventana de descarga de movimientos con filtros aplicables.}
+    \label{fig:descarga_movimientos}
 \end{figure}
 
 
 
-Aquí, se permite registrar la recepción de productos en el inventario, ya sea por compras, devoluciones o ajustes. Visualiza los productos y ofrece las opciones de agregar una nueva entrada, actualizarla o eliminarla. Incluye un lector de código de barras para escanear los productos existentes a los cuales se desea dar entrada. 
-\textbf{Importante}: No es posible crear productos directamente desde esta opción de entrada. 
+\section{Movimientos Múltiples}
 
-\subsection{Salidas}
-
-En esta interfaz (Figura \ref{fig:outs}), se facilita el registro de productos que salen del almacén, ya sea por ventas o devoluciones de clientes. Puedes crear, actualizar o eliminar una salida, y también hacerlo utilizando el lector de código de barras, simplemente escaneando el producto y completando los campos requeridos. 
+La pestaña \textbf{Movimientos Múltiples} permite realizar varios movimientos de inventario simultáneamente, ya sean entradas o salidas de productos. Esta sección está diseñada para facilitar la gestión masiva de stock de manera rápida y organizada (Figura \ref{fig:movimientos_multiples}).
 
 \begin{figure}[ht!]
 \centering
 \begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=\textwidth]{imgs/OutsApp.png}
-    \caption{Aplicación de escritorio.}
-    \label{fig:outs1}
+    \includegraphics[width=\textwidth]{imgs/Almacen_General/movimientos/movimientos_multiples/movimientos_multiples.png}
+    \caption{Ventana principal de Movimientos Múltiples.}
+    \label{fig:mov_mult_principal}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=\textwidth]{imgs/OutsWebApp.png}
-    \caption{Apliación web.}
-    \label{fig:outs2}
+    \includegraphics[width=\textwidth]{imgs/Almacen_General/movimientos/movimientos_multiples/movimientos_multiples_productos_seleccionados.png}
+    \caption{Llenado de información para cada producto.}
+    \label{fig:mov_mult_form}
 \end{subfigure}        
-\caption{Ventana de inventario.}
-\label{fig:outs}
+\caption{Vista general del módulo de Movimientos Múltiples.}
+\label{fig:movimientos_multiples}
 \end{figure}
 
-\textbf{Consideración}: Algunos productos más antiguos en el sistema tienen restricciones al intentar actualizar el stock. Si es necesario, deberás actualizar también nuevos campos que se añadan a petición de administración. 
+\subsection*{Búsqueda y Selección de Productos}
+En la parte superior, encontrarás un buscador para localizar rápidamente el producto al que deseas aplicar el movimiento. Puedes buscar por nombre, número de parte o código SKU.
 
-\subsection{Movimientos múltiples} 
+\subsection*{Agregar Productos a la Lista}
+Una vez que encuentres el producto, aparecerá en una lista con un botón \textit{“Agregar”}.  
+Al hacer clic, el producto se trasladará a la parte inferior de la ventana, donde se irán listando todos los productos que deseas incluir en los movimientos múltiples.
+
+\subsection*{Llenado de Información}
+Para cada producto agregado, deberás completar los siguientes campos:
+
+\begin{itemize}
+    \item \textbf{Tipo de movimiento:} Selecciona si es una entrada o salida de inventario.
+    \item \textbf{Cantidad:} Indica el número de unidades a mover.
+    \item \textbf{SM ID:} Identificación del movimiento (si aplica).
+    \item \textbf{Referencia:} Información adicional para rastrear el movimiento.
+    \item \textbf{Stock disponible:} El sistema muestra cuántas unidades hay en existencia antes de realizar la operación.
+\end{itemize}
+
+\subsection*{Confirmación del Movimiento}
+\begin{justify}
+    
+    Cuando todos los movimientos estén listos, haz clic en el botón \textbf{“Crear Movimientos Múltiples”}.  
+    Una vez confirmados, estos movimientos se registrarán y podrán visualizarse en la tabla de Movimientos Individuales.
+    \textbf{Nota importante:} Los movimientos registrados en el sistema \textbf{no pueden eliminarse directamente} por los usuarios.  
+    Por ello, es fundamental revisar cuidadosamente toda la información antes de confirmar cualquier acción, especialmente en procesos como vales, entregas o asignaciones.
+    
+    En caso de requerir la eliminación de un movimiento por error o duplicado, se debe solicitar formalmente al grupo de software mediante un correo electrónico dirigido a:
+    
+    \begin{center}
+    \texttt{administracion@telintec.com.mx}
+    \end{center}
+\end{justify}
+
+
+\section{Despachado de Solicitudes de Material}
+\begin{justify}
+    
+    En esta ventana, el usuario podrá crear, actualizar y gestionar \textbf{Solicitudes de Material (SM)}.  
+    La pantalla se divide en tres áreas principales (Figura \ref{fig:despachado_sm}):
+\end{justify}
+
+
+\begin{itemize}
+    \item \textbf{Área de búsqueda y filtrado:} Permite localizar solicitudes existentes mediante filtros por fecha, responsable o estado de la solicitud.
+    \item \textbf{Área de detalle de solicitud:} Muestra la información completa de la SM seleccionada, incluyendo los productos solicitados, cantidades y observaciones.
+    \item \textbf{Área de acciones:} Desde esta sección el usuario puede crear nuevas solicitudes, actualizar estados, o confirmar el despacho del material.
+\end{itemize}
+
+\textbf{Importante:} Toda solicitud registrada debe ser revisada antes de su despacho para asegurar la disponibilidad del material y la correcta asignación de recursos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_general.png}
+    \caption{Ventana principal del módulo de Despachado de Solicitudes de Material.}
+    \label{fig:despachado_sm}
+\end{figure}
+
+\subsection{Información de la Solicitud}
+
+En esta sección se capturan los datos generales que identifican la solicitud (Figura \ref{fig:info_solicitud}).  
+
+Los campos principales son los siguientes:
+
+\begin{itemize}
+    \item \textbf{Cliente:} Selecciona de la lista desplegable el cliente correspondiente; por defecto, aparece el cliente de \textit{Ternium}.
+    \item \textbf{Folio y Contrato:} Ingresa el número de folio o contrato asociado a la solicitud.  
+    En este caso se presentan dos situaciones posibles:
+    \begin{itemize}
+        \item Seleccionar un nuevo folio, el cual generará automáticamente los folios correspondientes.
+        \item Editar un folio existente al hacer clic en el botón \textbf{Editar folio}.
+    \end{itemize}
+    \item \textbf{Fecha de solicitud:} Se genera automáticamente, pero puede editarse si es necesario.
+    \item \textbf{Planta y Área:} Define en qué planta y área se requiere el material.
+    \item \textbf{Responsable:} Persona encargada de la solicitud.
+    \item \textbf{N° de orden:} Número de orden de trabajo asociado a la solicitud.
+    \item \textbf{Proyecto y Destino:} Relaciona la solicitud con un proyecto específico y el destino (por ejemplo: \textit{Almacén}).
+    \item \textbf{Descripción de la actividad:} Explica brevemente para qué se requiere el material.
+    \item \textbf{Comentarios:} Campo opcional para añadir notas adicionales o información relevante.
+\end{itemize}
+
 \begin{figure}[ht!]
 \centering
 \begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=\textwidth]{imgs/MultipleMovesApp.png}
-    \caption{Aplicación de escritorio.}
-    \label{fig:multimoves1}
+    \includegraphics{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_folio.png}
+    \caption{Despliegue de opciones de folio.}
+    \label{fig:folio_opciones}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.45\textwidth}
-    \includegraphics[width=0.5\textwidth]{imgs/no-image.png}
-    \caption{Apliación web.}
-    \label{fig:multimoves2}
+    \includegraphics[height=5cm]{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_nuevo_folio.png}
+    \caption{Selección de folio al hacer clic en “Editar folio”.}
+    \label{fig:folio_editar}
 \end{subfigure}        
-\caption{Ventana de ingreso de multiples movimientos.}
-\label{fig:multimoves}
+\caption{Ventanas correspondientes al manejo de folios dentro de una solicitud.}
+\label{fig:info_solicitud}
 \end{figure}
 
-Esta  interfaz (Figura \ref{fig:multimoves}) opción permite crear entradas y salidas simultáneamente para varios productos, los cuales se agregarán en forma de lista. El campo \textit{Old Stock} es solo una etiqueta visual para que puedas ver el stock actual. \textbf{No deberás modificar este campo.} 
+
+\subsection{Productos a la Orden}
+
+En esta sección se añaden los materiales que formarán parte de la solicitud (Figura \ref{fig:productos_orden}).  
+
+Las principales funciones son las siguientes:
+
+\begin{itemize}
+    \item \textbf{Nuevo Producto:} Permite registrar manualmente un producto en la solicitud.
+    \item \textbf{Ver Catálogo:} Muestra el catálogo de materiales disponibles para seleccionarlos.  
+    Una vez desplegados los productos, podrás categorizarlos por \textit{Catálogo General} o por \textit{Contrato}.  
+    Posteriormente, podrás añadirlos dando clic en el ícono de \textbf{“+”}.
+\end{itemize}
+
+Al agregar productos, estos se irán listando dentro de esta área, permitiendo visualizar fácilmente los materiales seleccionados.
+
+\begin{figure}[ht!]
+\centering
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_ver_catalago.png}
+    \caption{Ventana “Ver Catálogo”.}
+    \label{fig:ver_catalogo}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_catalago_desglosado.png}
+    \caption{Catálogo desglosado de materiales disponibles.}
+    \label{fig:catalogo_desglosado}
+\end{subfigure}
+\caption{Visualización del catálogo de materiales y su desglose por categoría o contrato.}
+\label{fig:productos_orden}
+\end{figure}
+
+
+\begin{itemize}
+    \item \textbf{Productos añadidos:} Permite visualizar cómo se agregan los productos a la lista.  
+    Los productos ya seleccionados pueden editarse o eliminarse mediante sus respectivos íconos.
+\end{itemize}
+
+Al agregar productos, estos se irán listando dentro de esta área, permitiendo visualizar fácilmente los materiales seleccionados (Figura \ref{fig:productos_agregados}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/sm_productos_en_la_orden.png}
+    \caption{Vista de los productos añadidos a la lista, con opciones para editar o eliminar.}
+    \label{fig:productos_agregados}
+\end{figure}
+
+
+\begin{itemize}
+    \item \textbf{Producto Nuevo :} Si deseas añadir un producto nuevo, selecciona la pestaña \textbf{“Nuevo Producto”}.  
+Inmediatamente se abrirá una ventana donde podrás llenar los datos correspondientes del material a registrar (Figura \ref{fig:producto_nuevo}).
+\end{itemize}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/Agregar_producto_nuevo_despachado.png}
+    \caption{Ventana para registrar un nuevo producto en la solicitud.}
+    \label{fig:producto_nuevo}
+\end{figure}
+
+\subsection{Acciones}
+
+\textbf{Crear SM:} Una vez llenada toda la información necesaria para crear una \textbf{Solicitud de Material (SM)}, podrás dar clic en el botón \textbf{“Crear SM”}.  
+El sistema generará automáticamente la solicitud, la cual podrás visualizar dentro de la lista de materiales (Figura \ref{fig:acciones_crear_sm}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/acciones.png}
+    \caption{Acciones disponibles en la ventana de Solicitud de Material: 
+    \textbf{Crear SM:} Guarda una nueva solicitud. 
+    \textbf{Actualizar SM:} Modifica una solicitud existente. 
+    \textbf{Limpiar Campos:} Borra los datos capturados para comenzar de nuevo. 
+    \textbf{Eliminar SM:} Elimina la solicitud seleccionada.}
+    \label{fig:acciones_crear_sm}
+\end{figure}
+
+\subsection{Lista de Solicitudes de Material}
+
+En la parte inferior de la ventana se muestra una tabla con todas las \textbf{Solicitudes de Material (SM)} registradas (Figura \ref{fig:lista_sm}).  
+
+La tabla incluye las siguientes columnas:
+
+\begin{itemize}
+    \item \textbf{Folio}
+    \item \textbf{Contrato}
+    \item \textbf{Planta}
+    \item \textbf{Destino}
+    \item \textbf{Responsable}
+    \item \textbf{Ubicación}
+    \item \textbf{Número de orden}
+    \item \textbf{Fecha de inicio}
+    \item \textbf{Fecha límite}
+    \item \textbf{Acciones} (Editar, PDF, Excel)
+\end{itemize}
+
+Los botones de \textbf{PDF} y \textbf{Excel} permiten descargar la lista completa de solicitudes en los formatos correspondientes.  
+
+\subsubsection*{Acciones de la Lista}
+En cada fila de la tabla podrás visualizar tres botones: \textbf{Editar}, \textbf{PDF} y \textbf{Excel}.  
+Al dar clic en el botón \textbf{Editar}, se mostrará en la parte superior un formulario que te permitirá modificar la solicitud seleccionada.  
+Este formulario se completará automáticamente con los datos previamente registrados, facilitando la actualización de la información (Figura \ref{fig:lista_sm}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png}
+    \caption{Vista de la lista de Solicitudes de Material. Al hacer clic en \textbf{Editar}, se habilita el formulario superior para actualizar la SM seleccionada.}
+    \label{fig:lista_sm}
+\end{figure}
+
+\paragraph{Actualizar SM}
+Una vez que hayas modificado el campo que necesitas en el formulario superior, deberás dar clic en el botón \textbf{Actualizar SM} para guardar los cambios en la solicitud seleccionada (Figura \ref{fig:update_sm}).  
+El sistema confirmará la actualización y los datos modificados se reflejarán en la tabla de solicitudes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png}
+    \caption{Ejemplo de modificación de una Solicitud de Material (SM) y botón \textbf{Actualizar SM}.}
+    \label{fig:update_sm}
+\end{figure}
+
+
+\section{Procesamiento de Solicitud de Material (SM)}
+\vspace{-0.5em}
+\begin{justify}
+    
+    Esta pantalla está diseñada para gestionar el despacho de materiales solicitados en el sistema.  
+    Aquí el personal del almacén puede consultar las solicitudes pendientes y seleccionar aquella que se desea atender (Figura \ref{fig:procesamiento_sm}).
+    
+    En la parte central de la interfaz se muestra un bloque con el mensaje \textbf{“Selecciona una SM para despachar”}, acompañado de un ícono de caja.  
+    Este bloque sirve como recordatorio de que, antes de iniciar cualquier acción, es necesario elegir una \textbf{Solicitud de Material (SM)} de la lista inferior para proceder con el despacho correspondiente.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png}
+    \caption{Vista inicial del módulo de Procesamiento de Solicitud de Material (SM) con el mensaje “Selecciona una SM para despachar”.}
+    \label{fig:procesamiento_sm}
+\end{figure}
+
+\subsection{Información General de la Solicitud}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+En esta sección se muestra un resumen general de la \textbf{Solicitud de Material (SM)} seleccionada, junto con las opciones para navegar dentro del módulo (Figura \ref{fig:info_general_sm}).
+
+\begin{itemize}
+    \item \textbf{Volver a la lista:} Botón que permite regresar a la vista anterior, donde aparece el listado general de todas las solicitudes registradas.
+\end{itemize}
+
+En la parte superior de la pantalla se visualizan los \textbf{datos básicos de la SM seleccionada}:
+
+\begin{itemize}
+    \item \textbf{Folio SM:} Código único que identifica la solicitud. Ejemplo: \textit{SM-ALM001}.
+    \item \textbf{Contrato:} Proyecto o contrato asociado a la solicitud.
+    \item \textbf{Número de Orden:} Referencia interna u orden de trabajo relacionada.
+\end{itemize}
+
+Debajo de esta información se muestran tres \textbf{indicadores clave}:
+
+\begin{itemize}
+    \item \textbf{Total Items:} Número total de productos solicitados en la SM.
+    \item \textbf{Para Despachar:} Cantidad de productos que aún están disponibles en almacén para su entrega.
+    \item \textbf{Necesitan Compra:} Cantidad de productos que no están en stock y deben adquirirse.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png}
+    \caption{Vista de la información general de la Solicitud de Material (SM) seleccionada, con indicadores de estado y acceso a navegación.}
+    \label{fig:info_general_sm}
+\end{figure}
+
+
+\subsection{Progreso de la SM (lado derecho)}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+En el panel lateral derecho se muestra el \textbf{Progreso de la Solicitud de Material (SM)}, el cual permite visualizar de manera rápida el estado actual del despacho (Figura \ref{fig:progreso_sm}).
+
+Este panel contiene los siguientes elementos:
+
+\begin{itemize}
+    \item \textbf{\% Completado:} Indica el porcentaje de avance del despacho.  
+    Ejemplo: \textit{9\%}.
+    \item \textbf{Estado:} Refleja la fase en la que se encuentra la solicitud. Puede ser:  
+    \textit{Iniciado}, \textit{En Proceso} o \textit{Completado}.
+    \item \textbf{Solicitado:} Muestra el total de productos requeridos en la solicitud.
+    \item \textbf{Despachado:} Indica la cantidad de productos que ya fueron entregados al área correspondiente.
+\end{itemize}
+
+\subsubsection*{Historial de eventos (lado derecho)}
+
+En la parte inferior del mismo panel se presenta el \textbf{Historial de eventos}, donde se registra cronológicamente cada acción realizada sobre la solicitud:
+
+\begin{itemize}
+    \item \textbf{Creation:} Fecha en que se creó la solicitud de material (SM).
+    \item \textbf{Update:} Última fecha de actualización de la información registrada.
+    \item \textbf{Dispatch Action:} Registro del momento en que se realizó el despacho de un producto.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm, keepaspectratio]{imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png}
+    \caption{Panel lateral que muestra el progreso del despacho de la SM y el historial de eventos asociados.}
+    \label{fig:progreso_sm}
+\end{figure}
+
+\subsection{Resumen de Cantidades}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+Cada producto de la \textbf{Solicitud de Material (SM)} se muestra dentro de una tarjeta individual (Figura \ref{fig:resumen_cantidades}).  
+Por ejemplo: \textit{Product test 3 20-08}.
+
+Cada tarjeta incluye una \textbf{etiqueta de estado} que indica si el producto está \textit{Completamente despachado} o aún pendiente.
+
+El \textbf{Resumen de Cantidades} presenta la siguiente información:
+
+\begin{itemize}
+    \item \textbf{Stock físico:} Cantidad disponible actualmente en el almacén.
+    \item \textbf{Reservado:} Cantidad de unidades apartadas para otras solicitudes.
+    \item \textbf{Solicitada:} Número de unidades pedidas en la solicitud actual.
+    \item \textbf{Despachada:} Cantidad de unidades que ya fueron entregadas al área solicitante.
+    \item \textbf{Máx. Reservar:} Límite máximo de unidades que pueden apartarse (si aplica).
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png}
+    \caption{Vista del resumen de cantidades por producto dentro de la Solicitud de Material (SM).}
+    \label{fig:resumen_cantidades}
+\end{figure}
+
+
+\subsection{Acciones del Ítem}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+En cada tarjeta de producto dentro de la \textbf{Solicitud de Material (SM)}, se encuentran disponibles diferentes \textbf{acciones} que permiten al usuario gestionar el despacho y control del material (Figura \ref{fig:acciones_item}).
+
+Las acciones disponibles son:
+
+\begin{itemize}
+    \item \textbf{Despachar:} Permite registrar la entrega parcial o total del producto seleccionado.
+    \item \textbf{Editar:} Abre un formulario para modificar la cantidad solicitada o la información del producto antes del despacho.
+    \item \textbf{Eliminar:} Quita el producto de la solicitud en caso de error o si ya no se requiere.
+\end{itemize}
+
+Cada acción cuenta con un ícono representativo que facilita la identificación visual y agiliza el flujo de trabajo del usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/accionesitem.png}
+    \caption{Acciones disponibles para cada ítem dentro de la Solicitud de Material (SM): Despachar, Editar y Eliminar.}
+    \label{fig:acciones_item}
+\end{figure}
+
+
+\subsection{Botón Confirmar Reservación}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+El \textbf{botón Confirmar Reservación} se utiliza para validar y guardar la reserva del ítem seleccionado dentro del sistema (Figura \ref{fig:ejemplo_reservacion}).  
+
+\textbf{Ubicación:} Se encuentra dentro de la \textit{ventana emergente de confirmación de reserva}.  
+\textbf{Acción:} Al presionarlo, el sistema registra la cantidad especificada del producto como reservada.  
+
+\subsubsection*{Resultado esperado}
+\begin{itemize}
+    \item Se crea una nueva reservación para el ítem seleccionado.
+    \item Los datos de stock se actualizan automáticamente en tiempo real, sin necesidad de recargar la página.
+    \item Se muestra una notificación de confirmación indicando que la operación fue exitosa.
+\end{itemize}
+
+\subsubsection*{Ejemplo de uso}
+\begin{enumerate}
+    \item Selecciona la cantidad de ítems a reservar en el campo correspondiente.
+    \item Revisa la información de stock y disponibilidad mostrada en el recuadro.
+    \item Presiona el botón \textbf{Confirmar Reservación} para completar el proceso.
+    \item El sistema actualizará la cantidad reservada y reflejará los cambios en la pantalla principal.
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/reservacion_items.png}
+    \caption{Ejemplo de reservación de un ítem mediante el botón \textbf{Confirmar Reservación}.}
+    \label{fig:ejemplo_reservacion}
+\end{figure}
+
+
+\subsection{Botón Generar Orden de Compra}
+
+\vspace{-0.2em} % reduce el espacio entre el título y el texto
+
+El \textbf{botón Generar Orden de Compra} permite solicitar una orden en el sistema cuando los ítems requeridos no pueden ser cubiertos únicamente con el stock disponible (Figura \ref{fig:orden_compra}).  
+
+\subsubsection*{Cuándo se activa este botón}
+El sistema habilita el botón \textbf{Generar Orden de Compra} únicamente en los siguientes casos:
+
+\begin{itemize}
+    \item \textbf{Sin stock disponible:} Cuando el producto solicitado no existe actualmente en el inventario.
+    \item \textbf{Stock insuficiente:} Si la cantidad solicitada supera la disponible en almacén.
+    \item \textbf{Faltante parcial:} Cuando parte de la solicitud fue cubierta con reservas, pero aún quedan unidades pendientes por surtir.
+    \item \textbf{Políticas administrativas:} En situaciones donde la empresa exige generar una orden de compra por control interno o trazabilidad, aunque exista stock suficiente.
+\end{itemize}
+
+\subsubsection*{Campos del formulario}
+Al presionar el botón, se abre la ventana \textbf{“Crear Orden de Compra”}, donde se deben completar los siguientes datos:
+
+\begin{itemize}
+    \item \textbf{Fecha:} Día en que se genera la orden.
+    \item \textbf{Referencia:} Número o código único asignado automáticamente por el sistema.
+    \item \textbf{Comentario:} Espacio para observaciones adicionales.
+    \item \textbf{Descripción:} Detalle del ítem a comprar.
+    \item \textbf{Cantidad:} Número de unidades requeridas.
+    \item \textbf{Proveedor:} Nombre del proveedor (opcional si aún no está definido).
+    \item \textbf{Marca:} Identificación comercial del producto.
+    \item \textbf{Categoría:} Clasificación del producto (por ejemplo: insumo, herramienta).
+    \item \textbf{Número de Parte:} Código interno o del proveedor.
+    \item \textbf{URL:} Enlace web de referencia (si aplica).
+    \item \textbf{Es Herramienta:} Casilla para indicar si corresponde a una herramienta.
+\end{itemize}
+
+\subsubsection*{Botones de acción}
+\begin{itemize}
+    \item \textbf{Cancelar:} Cierra la ventana sin registrar cambios.
+    \item \textbf{Crear Solicitud de Compra:} Guarda la orden con los datos ingresados y la registra en el sistema.
+\end{itemize}
+
+Al confirmar, el sistema genera una nueva \textbf{Orden de Compra} que queda registrada con su número de referencia y detalles correspondientes.  
+Posteriormente, esta orden puede consultarse y gestionarse en el módulo de \textbf{Compras}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/orden de compra.png}
+    \caption{Ventana para solicitar una Orden de Compra desde el módulo de Procesamiento de SM.}
+    \label{fig:orden_compra}
+\end{figure}
+
+
+\subsection{Acciones Globales}
+
+\vspace{-0.5em} % reduce el espacio entre el título y el texto
+
+El bloque de \textbf{Acciones Globales} ofrece herramientas que permiten realizar operaciones sobre toda la \textbf{Solicitud de Material (SM)} de manera simultánea (Figura \ref{fig:acciones_globales}).  
+
+Estas acciones están diseñadas para optimizar el flujo de trabajo en el despacho o en la gestión de compras masivas.
+
+\begin{itemize}
+    \item \textbf{Despachar Todo (botón azul):} Permite entregar automáticamente todos los productos que cuenten con stock disponible.  
+    Esta acción agiliza el proceso de despacho evitando realizar confirmaciones individuales por ítem.
+    
+    \item \textbf{Solicitar compra múltiple (botón amarillo):} Genera de forma automática una \textbf{Orden de Compra múltiple} para todos los productos de la SM que no cuenten con stock suficiente.  
+    De esta manera, se consolidan las solicitudes de materiales pendientes en un solo proceso de compra.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/Procesamiento_SM/acciones-globales.png}
+    \caption{Vista del bloque de \textbf{Acciones Globales} con las opciones \textit{Despachar Todo} y \textit{Solicitar compra múltiple}.}
+    \label{fig:acciones_globales}
+\end{figure}
+
+
+
+
+
+
 
 \section{Solicitudes de Material}
 
