@@ -895,46 +895,321 @@ Estas acciones están diseñadas para optimizar el flujo de trabajo en el despac
 \end{figure}
 
 
+\section{Vales (Flujo de Despacho y Aprobación)}
 
+\begin{justify}
+Esta sección forma parte del módulo de \textbf{Almacén General} y permite al encargado o líder de almacén gestionar el flujo de aprobación y despacho de vales relacionados con productos de seguridad y herramientas.
 
+El objetivo principal es asegurar que cada solicitud pase por una validación operativa antes de realizar la entrega física de los productos, garantizando control, trazabilidad y cumplimiento de las políticas internas.
+\end{justify}
 
-
-
-\section{Solicitudes de Material}
-
-Esta pestaña está diseñada para facilitar el proceso de solicitud y aprobación de materiales dentro de la organización. Sus funcionalidades incluyen: 
-
-Creación de solicitudes: Permite a los usuarios generar solicitudes de material de manera rápida, especificando detalles como cantidades requeridas, razones de uso y fechas necesarias. 
-
-Aprobación y seguimiento: Los administradores pueden aprobar o rechazar solicitudes y realizar un seguimiento de su estado hasta la entrega final. 
-
-\section{Escaner}
-
-La pestaña del escáner está enfocada en optimizar el registro de movimientos de inventario mediante el uso de tecnología de códigos de barras. Para la aplicación de escritorio se despliega una ventana extra donde se realizan las operaciones del lector. Las funciones disponibles son: 
-
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=0.7\textwidth]{imgs/LectorApp.png}
-\caption{Ventana emergente para funcines del lector.}
-\label{fig:lecotr}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png}
+    \caption{Flujo de despacho y aprobación de vales.}
+    \label{fig:vales_flujo}
 \end{figure}
 
-Permite a los usuarios registrar entradas y salidas de manera rápida y precisa escaneando los códigos de barras de los productos. Esto facilita la gestión del inventario de manera eficiente y sin errores manuales.
+\subsection{Importancia del Despacho por Almacén General}
 
-\textbf{¿El escáner se desconfiguró?} Sigue estos pasos:
-\begin{enumerate}
-    \item Verifica la conexión: Asegúrate de que el escáner esté correctamente conectado al dispositivo. Si es inalámbrico, comprueba que esté dentro del rango de la red o que la batería esté cargada. 
+\begin{justify}
+Es fundamental que el \textbf{Almacén General} realice el despacho de los vales, ya que todo vale aprobado —sin excepción— debe pasar por este departamento para su validación final y entrega física.
 
-    \item Reinicia el escáner: Apaga el escáner y vuélvelo a encender para restablecer su configuración. 
+Sin el despacho por parte del almacén, el vale no se considera completado ni entregado correctamente en el sistema. Esto garantiza control interno, trazabilidad y cumplimiento de los procedimientos establecidos para la gestión de productos y herramientas.
+\end{justify}
 
-    \item Reconfigura el escáner: 
+\begin{justify}
+   Este paso garantiza:
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Control de inventario}
+    \item \textbf{Registro de entregas}
+    \item \textbf{Trazabilidad operativa}
+    \item \textbf{Validación de que el producto llegó al empleado designado}
+\end{itemize}
+
+\subsection{Secciones Disponibles}
+
+\begin{justify}
+La interfaz del módulo está dividida en tres pestañas principales, cada una diseñada para gestionar un tipo específico de vale o movimiento dentro del sistema.
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Vale de Seguridad}  
     \begin{itemize}
-        \item Escanea el código de configuración que aparece en el manual del escáner para restablecer los ajustes predeterminados.
-        \item Puedes acceder al manual desde el 
-        \href{https://drive.google.com/file/d/1OsTJD1-Hbvdd9wIGknSJqKVfENMQDajR/view?usp=sharing.}{\emph{enlace}}. 
-        \item Este manual incluye los códigos necesarios y las instrucciones detalladas para la configuración.
+        \item Muestra las solicitudes de equipos de protección personal (EPP).
+        \item El encargado de almacén puede aprobar cada vale según la disponibilidad y la validación previa.
+        \item Una vez aprobado, el vale continúa su flujo hacia la entrega física.
     \end{itemize}
-    \item Verifica la configuración del software. Asegúrate de buscar en tu dispositivo el administrador de dispositivos los puertos (COM) y poder ver si el escáner ya es reconocido por el dispositivo.
 
-    \item Consulta la guía de solución de problemas. Si el escáner sigue sin funcionar correctamente, consulta la guía de solución de problemas para verificar posibles errores de lectura o ajustes necesarios. 
-\end{enumerate}
+    \item \textbf{Vale de Herramientas y Equipo}  
+    \begin{itemize}
+        \item Contiene solicitudes de herramientas operativas o equipos técnicos.
+        \item El líder de almacén puede revisar cada solicitud y aprobarla para su despacho.
+        \item Se valida que el equipo esté disponible y que el empleado designado esté correctamente asignado.
+    \end{itemize}
+
+    \item \textbf{Herramientas Prestadas}  
+    \begin{itemize}
+        \item Esta pestaña funciona como un visualizador informativo.
+        \item Muestra el historial de herramientas que han sido prestadas a los empleados.
+        \item No permite edición ni aprobación; únicamente consulta.
+    \end{itemize}
+\end{itemize}
+
+\section{Vale de Seguridad (Despacho)}
+
+\begin{justify}
+La pestaña \textbf{Vale de Seguridad} dentro del módulo de Vales permite al encargado del \textbf{Almacén General} revisar, aprobar y despachar solicitudes de equipos de protección personal (EPP) generadas por líderes o gerentes desde el módulo de Operaciones.
+
+Cada fila en la tabla representa una solicitud de vale y muestra información clave para la gestión del despacho.
+\end{justify}
+
+\subsection*{Campos mostrados en la tabla}
+
+\begin{itemize}
+    \item \textbf{Área}: Proyecto o unidad donde se requiere el equipo.
+    \item \textbf{Transacción}: Tipo de movimiento (por ejemplo, Asignación).
+    \item \textbf{Empleado solicitante}: Persona que genera la solicitud.
+    \item \textbf{Empleado designado}: Persona que recibirá el equipo.
+    \item \textbf{Estado}: Puede ser \textbf{Pendiente} (color rojo) o \textbf{Aprobado} (color verde).
+    \item \textbf{Acciones}: Íconos disponibles para gestionar la solicitud (aprobar, visualizar detalles, despachar).
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png}
+    \caption{Vista de la pestaña Vale de Seguridad.}
+    \label{fig:vale_seguridad}
+\end{figure}
+\subsection{Botón de Acciones: Revisión y Despacho}
+
+\begin{justify}
+Al hacer clic en el ícono de acciones (generalmente representado por un \textit{ojo} o un \textit{lápiz}), se despliega una ventana emergente que contiene todos los ítems incluidos en la solicitud. 
+
+Esta ventana es el punto clave para realizar la validación del vale y completar el proceso de despacho.
+\end{justify}
+
+\subsection{Contenido de la Ventana Emergente: Ítems de la Solicitud}
+
+\begin{justify}
+La ventana emergente está dividida en dos secciones principales que permiten al encargado visualizar los ítems solicitados y revisar el historial asociado al vale.
+\end{justify}
+
+\subsubsection*{1. Ítems de la solicitud}
+
+\begin{itemize}
+    \item Nombre del producto solicitado (ej., \textit{TAPÓN AUDITIVO EN BOLSA}).
+    \item Cantidad requerida.
+    \item Unidad de medida.
+    \item Observaciones (si las hay).
+    \item Botón \textbf{Aprobar} para validar el ítem.
+\end{itemize}
+
+\subsubsection*{2. Historial de eventos}
+
+\begin{itemize}
+    \item Creación del vale.
+    \item Envío de solicitud de aprobación.
+    \item Estado actual del vale (ej., \textbf{Pendiente}).
+\end{itemize}
+
+\begin{justify}
+Esta vista permite al aprobador revisar cada detalle antes de tomar una decisión final sobre el despacho.
+\end{justify}
+
+
+\subsubsection{Despacho de Almacén}
+
+\begin{justify}
+El \textbf{Despacho de Almacén} representa la última etapa en el flujo de validación de vales, ya sea de seguridad (EPP) o de herramientas y equipo. Esta acción se realiza exclusivamente desde el módulo de \textbf{Almacén General}, y es responsabilidad del encargado o líder del área.
+\end{justify}
+\subsection{Flujo de Aprobación Previo}
+
+\begin{justify}
+Antes de que un vale pueda ser aprobado (despachado) en Almacén General, debe haber pasado por una validación inicial en su módulo de origen.
+\end{justify}
+
+\begin{itemize}
+    \item Si el vale fue generado desde el módulo de Operaciones, debe haber sido aprobado por el líder o gerente correspondiente.
+    \item Si el vale proviene del módulo de Almacén EPP, también debe haber sido validado por el responsable de productos de seguridad.
+    \item Solo los vales aprobados en su origen pueden llegar al Almacén General para su despacho final.
+\end{itemize}
+\subsection{Rol del Almacén General}
+
+\begin{justify}
+Una vez que el vale aparece en el sistema de Almacén General, se realizan las siguientes acciones:
+\end{justify}
+
+\begin{itemize}
+    \item El encargado revisa los ítems de la solicitud.
+    \item Confirma disponibilidad y asignación correcta del producto.
+    \item Realiza la aprobación (despacho) final.
+    \item Registra la entrega física y actualiza el estado del vale.
+\end{itemize}
+
+\begin{justify}
+Este paso garantiza que ningún producto se entregue sin haber sido validado previamente, manteniendo control, trazabilidad y orden operativo dentro del sistema.
+\end{justify}
+
+\section{Vale de Herramientas (Despacho)}
+
+\begin{justify}
+La pestaña \textbf{Vale de Herramientas y Equipo}, dentro del módulo de Vales, permite al encargado del \textbf{Almacén General} revisar, aprobar y despachar solicitudes de herramientas operativas o equipos técnicos que serán asignados a empleados en campo.
+
+Este módulo asegura la correcta entrega, trazabilidad y validación previa de cualquier herramienta o equipo solicitado por los líderes o gerentes responsables.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png}
+    \caption{Vista general de la pestaña Vale de Herramientas y Equipo.}
+    \label{fig:vale_herramientas}
+\end{figure}
+\subsection{Campos de la Tabla: Vale de Herramientas y Equipo}
+
+\begin{justify}
+La tabla mostrada en la pestaña \textbf{Vale de Herramientas y Equipo} presenta información clave para gestionar la validación y el despacho de herramientas asignadas a empleados en campo. Cada fila corresponde a una solicitud de vale.
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Contrato}: Proyecto o unidad donde se requiere la herramienta (equivalente al campo \textit{Área} en los vales de seguridad).
+    \item \textbf{Tipo}: Tipo de transacción, generalmente \textit{Asignación}.
+    \item \textbf{Empleado solicitante}: Persona que genera la solicitud.
+    \item \textbf{Empleado designado}: Persona que recibirá la herramienta o equipo.
+    \item \textbf{Estado}: Indica si el vale está \textbf{Pendiente} (color rojo) o \textbf{Aprobado} (color verde).
+    \item \textbf{Acciones}: Íconos para visualizar detalles, editar información o eliminar la solicitud.
+\end{itemize}
+
+\subsection{Botón de Acciones: Revisión y Despacho}
+
+\begin{justify}
+Al hacer clic en el ícono de acciones, se despliega una ventana emergente que muestra los ítems incluidos en la solicitud. Desde esta ventana, el encargado del Almacén General puede realizar la validación previa al despacho.
+\end{justify}
+
+\begin{itemize}
+    \item Ver el detalle de cada herramienta solicitada.
+    \item Validar la cantidad requerida y las observaciones ingresadas.
+    \item Confirmar la disponibilidad del equipo o herramienta en almacén.
+    \item Presionar el botón \textbf{Aprobar} para completar el proceso de despacho.
+\end{itemize}
+
+\begin{justify}
+Este paso permite validar cada ítem antes de realizar la entrega física al empleado designado, asegurando control y trazabilidad.
+\end{justify}
+\subsection{Contenido de la Ventana Emergente: Ítems de la Solicitud (Herramientas)}
+
+\begin{justify}
+Al hacer clic en el botón de acciones dentro de la pestaña \textbf{Vale de Herramientas y Equipo}, se despliega una ventana emergente que permite al encargado del Almacén General revisar y aprobar cada ítem solicitado. Esta ventana es esencial para validar y confirmar el despacho de herramientas o equipos técnicos.
+\end{justify}
+
+\subsubsection*{1. Ítems de la Solicitud}
+
+\begin{itemize}
+    \item Nombre del producto solicitado (ejemplo: \textit{ARRASTRADOR MANUAL 1/2}).
+    \item Cantidad requerida.
+    \item Unidad de medida (ejemplo: \textit{PIEZA}, \textit{JUEGO}, \textit{CAJA}).
+    \item Observaciones registradas (si las hay, por ejemplo: \textit{"test 123"}).
+    \item Botón \textbf{Aprobar} para validar y despachar el ítem.
+\end{itemize}
+
+\begin{justify}
+Cada ítem debe ser aprobado individualmente para confirmar su entrega y asegurar que se cumple con la trazabilidad del proceso.
+\end{justify}
+
+\subsection{Historial de Eventos}
+
+\begin{justify}
+La ventana emergente también incluye una sección de \textbf{Historial de eventos}, donde se muestra una línea de tiempo con todas las acciones realizadas sobre el vale. Esta vista permite rastrear el flujo del vale desde su creación hasta su aprobación final.
+\end{justify}
+
+\begin{itemize}
+    \item Creación del vale (incluye fecha y usuario).
+    \item Actualización de estado o envío de solicitud de aprobación.
+    \item Indicación del estado actual del vale (por ejemplo: \textbf{Pendiente} o \textbf{Aprobado}).
+\end{itemize}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png}
+    \caption{Vista general de la pestaña Vale de Herramientas y Equipo.}
+    \label{fig:vale_herramientas}
+\end{figure}
+\subsection{Campos de la Tabla: Vale de Herramientas y Equipo}
+
+
+\section{Herramientas Prestadas}
+
+\begin{justify}
+La pestaña \textbf{Herramientas Prestadas}, dentro del módulo de Vales, funciona exclusivamente como un \textbf{visualizador informativo}. No permite realizar aprobaciones, ediciones ni despachos; su propósito es brindar visibilidad completa sobre el estado actual de las herramientas que han sido prestadas o asignadas a los empleados.
+
+Esta vista permite al Almacén General y a los líderes operativos consultar qué herramientas están actualmente en uso, a quién fueron asignadas y en qué fecha, facilitando el control y la trazabilidad del equipo entregado.
+\end{justify}
+
+
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}[c]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png}
+        \subcaption{Vale de herramientas}
+        \label{fig:vale_herramientas_sub1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png}
+        \subcaption{Visualizador del vale}
+        \label{fig:vale_herramientas_sub2}
+    \end{minipage}
+
+    \caption{Vista del historial de eventos del vale de herramientas.}
+    \label{fig:historial_eventos_herramientas}
+\end{figure}
+
+\subsection{Estructura de la Ventana}
+
+\begin{justify}
+La ventana de \textbf{Herramientas Prestadas} está dividida en dos tablas principales, cada una enfocada en un tipo diferente de control: herramientas prestadas temporalmente y herramientas asignadas de forma fija o prolongada.
+\end{justify}
+
+\subsubsection*{1. Herramientas en Préstamo}
+
+\begin{justify}
+Muestra los registros de herramientas que han sido prestadas temporalmente a empleados para actividades específicas.
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Vale}
+    \item \textbf{Área / Ubicación}
+    \item \textbf{Empleado Asigna}
+    \item \textbf{Empleado Recibe}
+    \item \textbf{Herramientas}
+    \item \textbf{Empleado Devuelve}
+    \item \textbf{Estatus}: Pendiente, Aprobado o En Progreso
+\end{itemize}
+
+\subsubsection*{2. Herramientas Asignadas}
+
+\begin{justify}
+Muestra las herramientas que han sido asignadas de manera fija o prolongada a un empleado, generalmente por función operativa.
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Vale}
+    \item \textbf{Área / Ubicación}
+    \item \textbf{Empleado Asigna}
+    \item \textbf{Empleado Recibe}
+    \item \textbf{Herramientas}
+\end{itemize}
+
+
+
+
+
+
+

@@ -1,13 +1,37 @@
-\chapter{Administración }
 
+\chapter{Administración}
 
-Este módulo permite gestionar la base de datos de clientes y proveedores, contratos, órdenes de compra y entregas de solicitudes de material.
+\begin{justify}
+El módulo de \textbf{Administración} está diseñado para centralizar y facilitar la gestión operativa del sistema Telintec. Su propósito es brindar a los administradores herramientas clave para el control de contratos, compras, base de datos y solicitudes de material (SM), permitiendo una operación eficiente y trazable entre departamentos.
+
+Este manual describe la estructura y funcionalidades actuales del módulo, y se actualizará conforme se integren nuevas capacidades. Las áreas que actualmente operan dentro de este módulo incluyen:
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Gestión de Base de Datos}: Alta, baja, modificación y consulta de clientes y proveedores.
+    \item \textbf{Contratos}: Creación, edición y actualización de contratos.
+    \item \textbf{Órdenes de compra}: Generación y seguimiento de compras aprobadas.
+    \item \textbf{Entrega de SM}: Administración de solicitudes de material utilizadas para solicitar productos al almacén.
+\end{itemize}
+
+\begin{justify}
+Este módulo es fundamental para coordinar procesos entre administración, almacén y operaciones, asegurando que cada solicitud esté correctamente registrada, validada y trazada en el sistema.
+\end{justify}
+
 \newpage
 \pagestyle{fancy}
+
+
+
 
 \subsection{3.1 Base de datos}
 
 \subsubsection{3.1.1 Gestión de Base de Datos – Pestaña: Clientes}
+
+\begin{justify}
+    La sección Gestión de Base de Datos está compuesta por dos pestañas principales: Clientes y Proveedores. En esta parte del manual se describe el funcionamiento de la pestaña Clientes, utilizada por el departamento de administración para registrar, consultar y mantener actualizada la información de las empresas o personas con las que se tiene relación comercial.
+En esta pestaña puedes:
+\end{justify}
 
 En esta pestaña puedes:
 
@@ -19,65 +43,354 @@ En esta pestaña puedes:
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/Administracion/BASE_DE _DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png}
     \caption{Gestión de clientes.}
     \label{fig:admin1}
 \end{subfigure}
 \caption{Interfaz de clientes en la base de datos.}
 \end{figure}
 
-\subsubsection{3.1.2 Gestión de Base de Datos – Pestaña: Proveedores}
 
-Funciones disponibles:
+\subsection{Crear Cliente}
+
+\begin{justify}
+Esta sección está destinada al registro y gestión de la información de los clientes dentro del sistema Telintec. El formulario de creación permite ingresar los datos necesarios para dar de alta a un nuevo cliente.
+\end{justify}
+
+\subsection*{Campos disponibles para registro}
 
 \begin{itemize}
-    \item Alta de proveedores.
-    \item Edición de datos como razón social, RFC, contacto.
-    \item Filtro por tipo de proveedor.
+    \item \textbf{C.U.I.T / RIF}: Identificador fiscal del cliente.
+    \item \textbf{Nombre}: Nombre de la compañía o razón social.
+    \item \textbf{Email}: Correo electrónico de contacto.
+    \item \textbf{Teléfono}: Número telefónico del cliente.
+    \item \textbf{RFC}: Registro Federal de Contribuyentes.
+    \item \textbf{Dirección}: Ubicación física del cliente.
 \end{itemize}
 
-\begin{figure}[h]
+\subsection*{Acciones disponibles (Botones)}
+
+\begin{itemize}
+    \item \textbf{Agregar cliente}: Registra un nuevo cliente en el sistema.
+    \item \textbf{Actualizar cliente}: Modifica los datos existentes de un cliente previamente registrado.
+    \item \textbf{Eliminar cliente}: Elimina el registro de forma definitiva.  
+    \textit{Esta acción no se puede revertir.}
+    \item \textbf{Limpiar campos}: Restablece todos los campos del formulario para ingresar nuevos datos.
+    \item \textbf{Mostrar tabla}: Visualiza el listado completo de clientes registrados en el sistema.
+\end{itemize}
+\subsection{Visualización de Clientes Registrados}
+
+\begin{justify}
+Dentro de la pestaña \textbf{Clientes}, el sistema permite consultar los registros existentes mediante el botón \textbf{Mostrar tabla}, ubicado en la parte inferior izquierda del formulario. Al hacer clic en este botón, se despliega una lista con todos los clientes registrados en el sistema, mostrando información clave para su identificación y gestión.
+\end{justify}
+
+\subsection*{Datos mostrados en la tabla}
+
+\begin{itemize}
+    \item \textbf{ID}
+    \item \textbf{Nombre}
+    \item \textbf{Email}
+    \item \textbf{Teléfono}
+    \item \textbf{RFC}
+    \item \textbf{Dirección}
+\end{itemize}
+
+\subsection*{Edición directa desde la lista}
+
+\begin{justify}
+Cada elemento de la lista incluye un botón de \textbf{Editar}. Al presionarlo, el sistema carga automáticamente la información del cliente en el formulario superior.
+\end{justify}
+
+\begin{itemize}
+    \item Permite modificar cualquier detalle del cliente sin buscarlo manualmente.
+    \item Facilita la corrección de datos de forma inmediata.
+    \item Optimiza la actualización de registros directamente desde la vista general.
+\end{itemize}
+
+\begin{justify}
+Esta funcionalidad agiliza la gestión de registros, permitiendo una edición rápida y precisa directamente desde la tabla de clientes.
+\end{justify}
+
+\subsubsection{3.1.2 Gestión de Base de Datos – Pestaña: Proveedores}
+\begin{justify}
+    La pestaña Proveedores permite registrar, consultar y mantener actualizada la información de los proveedores que colaboran con la empresa. Esta funcionalidad es utilizada principalmente por el departamento de administración para asegurar que los datos comerciales estén disponibles y actualizados para procesos como compras, solicitudes de material (SM) y generación de órdenes.
+\end{justify}
+
+
+
+\begin{figure}[H]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
-    \caption{Gestión de proveedores.}
-    \label{fig:admin2}
+
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png}
+    \caption{Campos del proveedor}
+    \label{fig:campos_proveedor}
 \end{subfigure}
-\caption{Interfaz de proveedores en la base de datos.}
+\hfill
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png}
+    \caption{Tabla de proveedores}
+    \label{fig:tabla_proveedor}
+\end{subfigure}
+
+\caption{Interfaz de gestión y visualización de proveedores.}
+\label{fig:admin_proveedores}
 \end{figure}
+
+
+
+\subsubsection{Crear Proveedor}
+
+\begin{justify}
+Esta sección está destinada al registro y gestión de la información de los proveedores que colaboran con Telintec. El formulario permite ingresar datos fiscales, de contacto y comerciales para mantener una base de datos actualizada y confiable.
+\end{justify}
+
+\subsubsection*{Campos disponibles para registro}
+
+\begin{itemize}
+    \item \textbf{Proveedor}: Nombre comercial o razón social.
+    \item \textbf{Nombre}: Persona de contacto principal.
+    \item \textbf{Email}: Correo electrónico del proveedor (puede incluir múltiples contactos).
+    \item \textbf{Teléfono}: Número telefónico del proveedor.
+    \item \textbf{Dirección}: Ubicación física o fiscal del proveedor.
+    \item \textbf{Marcas}: Marcas que representa o distribuye.
+    \item \textbf{Tipo}: Clasificación del proveedor (por ejemplo: materiales, servicios).
+    \item \textbf{RFC}: Registro Federal de Contribuyentes.
+    \item \textbf{Sitio web}: Página oficial del proveedor.
+\end{itemize}
+
+\subsection*{Acciones disponibles (Botones)}
+
+\begin{itemize}
+    \item \textbf{Agregar proveedor}: Registra un nuevo proveedor en el sistema.
+    \item \textbf{Actualizar proveedor}: Modifica los datos existentes de un proveedor previamente registrado.
+    \item \textbf{Eliminar proveedor}: Elimina el registro de forma definitiva.  
+    \textit{Esta acción no se puede revertir.}
+    \item \textbf{Limpiar campos}: Restablece todos los campos del formulario para ingresar nuevos datos.
+    \item \textbf{Mostrar tabla}: Visualiza el listado completo de proveedores registrados.
+\end{itemize}
+
+\subsubsection{Visualización de Proveedores Registrados}
+
+\begin{justify}
+Al hacer clic en el botón \textbf{Mostrar tabla}, se despliega una lista con todos los proveedores registrados. Esta tabla presenta información clave que permite una rápida identificación y acceso a los datos del proveedor.
+\end{justify}
+
+\subsection*{Datos mostrados en la tabla}
+
+\begin{itemize}
+    \item \textbf{Nombre del proveedor}
+    \item \textbf{Persona de contacto}
+    \item \textbf{Email}
+    \item \textbf{Teléfono}
+    \item \textbf{Sitio web}
+\end{itemize}
+
+\begin{justify}
+Cada fila del listado permite seleccionar o editar la información del proveedor, facilitando una gestión rápida y eficiente desde la vista general.
+\end{justify}
+
+\subsection*{Edición directa desde la lista}
+
+\begin{justify}
+Cada elemento de la tabla incluye un botón de \textbf{Editar}. Al presionarlo, el sistema carga automáticamente la información del proveedor en el formulario superior.
+\end{justify}
+
+\begin{justify}
+Esto permite modificar cualquier detalle del proveedor de forma rápida y precisa, sin necesidad de buscarlo manualmente dentro del listado.
+\end{justify}
+
+\subsection*{Acciones disponibles (Botones)}
+
+\begin{itemize}
+    \item \textbf{Agregar proveedor}: Registra un nuevo proveedor en el sistema.
+    \item \textbf{Actualizar proveedor}: Modifica la información de un proveedor previamente registrado.
+    \item \textbf{Eliminar proveedor}: Elimina el registro de forma definitiva.  
+    \textit{Esta acción no se puede revertir.}
+    \item \textbf{Limpiar campos}: Restablece todos los campos del formulario para ingresar nuevos datos.
+    \item \textbf{Mostrar tabla}: Visualiza el listado completo de proveedores registrados.
+\end{itemize}
+
+
+
 
 \subsection{3.2 Contratos}
 
+\begin{justify}
+    
+La sección \textbf{Contratos} forma parte del módulo de Administración y está diseñada para registrar, consultar y gestionar los contratos activos dentro de la plataforma Telintec. Esta funcionalidad permite llevar un control estructurado sobre los acuerdos operativos, facilitando el seguimiento de fechas, ubicaciones y demás información clave relacionada con cada contrato.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contratos_1.png}
+    \caption{Interfaz principal del módulo de Contratos.}
+    \label{fig:administracion_contratos}
+\end{figure}
+
+
+
 \subsubsection{3.2.1 Crear Contrato}
 
-Para registrar un nuevo contrato:
+\begin{justify}
+    La funcionalidad Crear Contrato permite registrar nuevos acuerdos operativos en el sistema Telintec, asegurando que toda la información relevante quede documentada y disponible para consulta, seguimiento y validación. Esta acción se realiza desde la sección Contratos, ubicada dentro del módulo de Administración.
+
+\end{justify}
+
+\subsubsection*{Campos requeridos para el registro}
 
 \begin{itemize}
-    \item Ingresa nombre del cliente, número de contrato, fecha de inicio y fin.
-    \item Asocia el contrato a un proyecto si aplica.
-    \item Guarda el contrato para que esté disponible en otras secciones del sistema.
+    \item \textbf{ID del contrato}
+    \item \textbf{Planta}
+    \item \textbf{Área}
+    \item \textbf{Nombre del contrato}
+    \item \textbf{Actividades del contrato}
+    \item \textbf{Descripción}
+    \item \textbf{Observaciones}
+    \item \textbf{Fecha de entrada / salida}
+    \item \textbf{Fecha de contrato}
+    \item \textbf{Fecha NOD}
+    \item \textbf{Código de colocación}
+    \item \textbf{Ubicación}
+    \item \textbf{Identificador del contrato}
 \end{itemize}
 
-\begin{figure}[h]
-\centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
-    \caption{Formulario de contrato.}
-    \label{fig:admin3}
-\end{subfigure}
-\caption{Creación de contrato en el sistema.}
+\subsubsection*{Funcionalidades: Sección Inferior}
+
+\begin{itemize}
+    \item \textbf{Desde documentos}
+    \item \textbf{Cargar plantilla}: Permite adjuntar documentos relacionados al contrato (PDF, Word, imágenes, etc.).
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contratos_d_documentos.png}
+    \caption{Sección inferior para carga de documentos del contrato.}
+    \label{fig:contratos_documentos}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contratos_partidas_cargadas.png}
+    \caption{Así se visualiza la carga de partidas.}
+    \label{fig:contratos_partidas}
+\end{figure}
+
+\begin{justify}
+\textbf{Advertencia importante:} Cada vez que se realice una carga de productos, si el archivo contiene errores o el usuario intenta cargar nuevamente, la información anterior será sobrescrita por la nueva.
+
+Por lo tanto, asegúrate de revisar bien el archivo antes de subirlo.
+\end{justify}
+
+\subsubsection{Desde Datos}
+
+\begin{itemize}
+    \item \textbf{Ingreso manual del Producto:}  
+    El usuario puede seleccionar el producto presionando el botón \textbf{“Agregar Producto”}.  
+    Al hacerlo, se generará una ventana emergente que permitirá ingresar de forma manual el producto, registrándolo uno por uno.
+
+    \item \textbf{Botón “Crear contrato”:}  
+    Una vez completados todos los campos y agregados los productos correspondientes, este botón registra el contrato en el sistema.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contrato_desde_datos.png}
+    \caption{Ventana emergente para agregar productos manualmente.}
+    \label{fig:contratos_agregar_producto}
+\end{figure}
+
+\begin{justify}
+Después de presionar el botón, inmediatamente se mostrará una ventana emergente que permitirá agregar un producto nuevo de forma manual. Esta interfaz está diseñada para capturar productos uno por uno, ingresando su información de manera precisa antes de guardarlo dentro del contrato.
+\end{justify}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contratos_crear_new_product.png}
+    \caption{Ventana emergente para agregar un nuevo producto.}
+    \label{fig:contratos_ventana_agregar}
+\end{figure}
+
+\begin{justify}
+Finalmente, el botón \textbf{“Crear contrato”} guardará toda la información capturada, incluyendo los datos generales del contrato y la lista de productos asociados.
+\end{justify}
+
+\begin{justify}
+\textbf{Nota:} Es importante que todos los campos relevantes se llenen de forma correcta antes de crear o actualizar un contrato, ya que estos datos serán utilizados para reportes y seguimientos posteriores dentro del sistema.
+\end{justify}
+
+º
 
 \subsubsection{Editar contrato}
 
-Para modificar un contrato existente:
+\begin{justify}
+La funcionalidad de \textbf{Editar contrato} permite modificar la información de un contrato previamente registrado en el sistema Telintec. Esta acción es esencial para mantener los datos actualizados y reflejar cualquier cambio en los términos, fechas o productos asociados al contrato.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imgs/Administracion/Contratos/contratos_editar.png}
+    \caption{Interfaz para editar un contrato existente.}
+    \label{fig:editar_contrato}
+\end{figure}
+\begin{justify}
+\textbf{Acceso a la edición:}  
+Al seleccionar la pestaña \textbf{Editar}, se despliega una lista de contratos justo debajo del formulario principal. Cada contrato aparece en una fila con información clave como:
+\end{justify}
 
 \begin{itemize}
-    \item Usa el buscador para localizar el contrato.
-    \item Haz clic en “Editar”.
-    \item Actualiza los campos necesarios y guarda los cambios.
+    \item \textbf{Abreviación}
+    \item \textbf{Título}
+    \item \textbf{Fecha de creación}
 \end{itemize}
+
+\subsection*{Botón de edición}
+
+\begin{justify}
+Cada fila incluye un botón con un ícono de \textit{pincel}, indicando que el contrato puede ser editado.
+Al presionar este botón:
+\end{justify}
+
+\begin{itemize}
+    \item El sistema auto-rellena los campos del formulario superior con la información del contrato seleccionado.
+    \item Esto permite modificar directamente los datos sin necesidad de buscarlos manualmente.
+\end{itemize}
+
+\subsection*{Campos que se pueden editar}
+
+\begin{justify}
+Una vez cargado el contrato en el formulario, el usuario puede actualizar cualquier campo disponible, tales como:
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Nombre del contrato}
+    \item \textbf{Área}
+    \item \textbf{Ubicación}
+    \item \textbf{Actividades}
+    \item \textbf{Fechas clave} (emisión, SICO, entrada/salida)
+    \item \textbf{Entidad contratante / contratada}
+    \item \textbf{Coordinador}
+    \item \textbf{Observaciones}
+\end{itemize}
+\subsubsection{Botón de Actualizar Contrato}
+
+\begin{justify}
+El botón \textbf{Actualizar Contrato} permite guardar los cambios realizados en un contrato previamente cargado en el formulario, asegurando que toda la información modificada quede registrada correctamente en el sistema.
+\end{justify}
+
+\begin{justify}
+Una vez que el usuario termina de editar los datos del contrato, únicamente deberá presionar este botón para confirmar y almacenar los cambios.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{imgs/Administracion/Contratos/contrato_btn_actualizar.png}
+    \caption{Botón de actualización del contrato.}
+    \label{fig:actualizar_contrato}
+\end{figure}
+
+
 
 \subsection{3.3 Órdenes de compra}
 
