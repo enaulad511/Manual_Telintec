@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763687873.23757 "c:/Users/eugen/proyectosTELINTEC/Manual_Telintec/main.tex" "main.pdf" "main" 1763687894.10219 0
+["pdflatex"] 1763687932.41511 "c:/Users/eugen/proyectosTELINTEC/Manual_Telintec/main.tex" "main.pdf" "main" 1763687954.92707 0
   "C:/Users/eugen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761764592 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/eugen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761243876 13321623 0b52a164da99788139cb37f159f56ec6 ""
   "C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -150,7 +150,7 @@
   "c:/Users/eugen/proyectosTELINTEC/Manual_Telintec/main.tex" 1763686566 4153 2f105716c3af5cb09ff1aef810765ac0 ""
   "content/administration.tex" 1763678869 32012 6f4f9ad88fa7e5350096d4342267d1b9 ""
   "content/cargos.tex" 1763686479 6749 c74449afd7b81cab8f3ad2b97ed1c8ca ""
-  "content/comun.tex" 1763687851 3234 302b17aacbf54f22467deb3f0e01a7ba ""
+  "content/comun.tex" 1763687931 3294 531f1792a2a4ade97f8f1199e1d9c637 ""
   "content/epp.tex" 1763683450 12173 767a5be16ec59212f58794b12a8ee75a ""
   "content/escaner.tex" 1763588682 2067 ddf7cda2438ea6edeb6d6f40e88d1889 ""
   "content/flujos.tex" 1761088674 1588 d72fa0bf729e123604226440baa9ce0d ""
@@ -232,10 +232,10 @@
   "imgs/TextLogo.png" 1761088675 60916 830fff21e094b4d9224f82c6957f75a7 ""
   "imgs/inicio_de_sesion/inicio_sesion_desktop.png" 1761088675 81132 5a07ea63af1f744b085b6fe7f63d2303 ""
   "imgs/no-image.png" 1761088675 37537 16dd1ecb1ca6d37b3bb98c1b9e21de2d ""
-  "main.aux" 1763687893 41932 4d19ed3538ef6d605ac2dd4056d13726 "pdflatex"
-  "main.out" 1763687893 15475 5cb6324064b91810dcb937ed5497be2b "pdflatex"
+  "main.aux" 1763687954 41932 4d19ed3538ef6d605ac2dd4056d13726 "pdflatex"
+  "main.out" 1763687954 15475 5cb6324064b91810dcb937ed5497be2b "pdflatex"
   "main.tex" 1763686566 4153 2f105716c3af5cb09ff1aef810765ac0 ""
-  "main.toc" 1763687893 11611 a9831faef7dc007cc7bf0626009d27f8 "pdflatex"
+  "main.toc" 1763687954 11611 a9831faef7dc007cc7bf0626009d27f8 "pdflatex"
   "telintec-500.png" 1761088675 37430 e7103d3feae1b0bafe0a5bec11800975 ""
   (generated)
   "main.aux"
