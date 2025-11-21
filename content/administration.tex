@@ -404,29 +404,260 @@ Desde una SM aprobada:
     \item Genera la orden de compra con folio único.
 \end{itemize}
 
+\begin{justify}
+    La sección Órdenes de Compra permite registrar, consultar y gestionar las compras realizadas por la empresa. Esta funcionalidad está integrada en el módulo de Administración y se vincula directamente con las solicitudes de material (SM) y los procesos de validación interna.
+
+\end{justify}
+
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Administracion/Ordenes_compra/od_comp_1.png}
     \caption{Orden desde SM.}
     \label{fig:admin4}
 \end{subfigure}
 \caption{Creación de orden de compra desde solicitud de material.}
 \end{figure}
 
-\subsubsection{Crear Nueva orden de compra (manual)}
+\subsubsection{Visualización de órdenes registradas}
 
-También puedes crear órdenes manualmente:
+En la parte superior de la sección se muestra una tabla con el listado de órdenes de compra existentes, incluyendo los siguientes campos:
 
 \begin{itemize}
-    \item Ingresa proveedor, productos, cantidades y precios.
-    \item Asocia la orden a un contrato si aplica.
-    \item Guarda y descarga en PDF o Excel.
+    \item \textbf{ID}: Número identificador de la orden.
+    \item \textbf{Created by}: Usuario que generó la orden.
+    \item \textbf{Estado}: Estado actual (por ejemplo, Pendiente).
+    \item \textbf{Creación}: Fecha y hora de registro.
+    \item \textbf{Acciones}: Botones disponibles para cada orden.
 \end{itemize}
 
-\subsection{3.4 Entregas de Solicitudes de material (SM)}
+\textbf{Botones disponibles por orden:}
+\begin{itemize}
+    \item \textbf{Editar (ícono negro)}: Permite modificar los datos de la orden.
+    \item \textbf{PDF (ícono verde)}: Descarga la orden en formato PDF para impresión o archivo.
+    \item \textbf{Eliminar (ícono rojo)}: Elimina la orden del sistema. Esta acción es definitiva y no puede revertirse.
+\end{itemize}
 
-\subsubsection{3.4.1 Paso 1: Seleccionar una solicitud de material (SM)}
+Esta sección es clave para el control de compras, permitiendo trazabilidad desde la solicitud hasta la ejecución, y facilitando la documentación formal de cada adquisición.
+
+\subsubsection{Formas de crear una orden de compra}
+
+El sistema ofrece dos métodos para generar una orden de compra:
+
+\begin{enumerate}
+    \item \textbf{Desde solicitud (SM)}  
+    Utiliza la información previamente registrada en una solicitud de material.  
+    Ideal para compras que ya fueron solicitadas y aprobadas por el área operativa.
+
+    \item \textbf{Crear nueva orden de compra}  
+    Permite registrar una orden desde cero, ingresando manualmente los datos requeridos.  
+    Útil para compras directas o casos especiales que no provienen de una SM.
+\end{enumerate}
+
+Ambas opciones están disponibles mediante los botones:
+
+\begin{itemize}
+    \item \textbf{Crear O.C. desde Solicitud}
+    \item \textbf{Crear Nueva O.C.}
+\end{itemize}
+
+
+
+\subsubsection{Crear orden de compra desde solicitud de material (SM)}
+
+\textbf{Ventana Emergente: Crear Orden de Compra desde Solicitud}
+
+En esta ventana se muestra una tabla con todas las solicitudes de material registradas en el sistema. Cada fila contiene información clave como:
+
+\begin{itemize}
+    \item \textbf{Referencia}: Código único de la solicitud.
+    \item \textbf{Tipo}: Producto o servicio solicitado.
+    \item \textbf{Creado por}: Usuario que generó la solicitud.
+    \item \textbf{Estado}: Pendiente, Autorizado o Rechazado.
+    \item \textbf{Fecha de creación}
+    \item \textbf{Acciones}: Botones disponibles para cada solicitud.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png}
+    \caption{Ventana de creación de Orden desde Solicitud SM.}
+\end{figure}
+
+\subsubsection{Botón de edición}
+
+Cada solicitud incluye un botón con ícono de lápiz, que permite editar o seleccionar la solicitud para convertirla en una orden de compra. 
+
+Al presionar este botón:
+
+\begin{itemize}
+    \item El sistema auto-rellena los campos del formulario que se mostrará en la ventana emergente con la información de la solicitud seleccionada.
+    \item Esto incluye productos, cantidades, proveedor sugerido y observaciones relevantes.
+    \item El usuario puede revisar y ajustar los datos antes de confirmar la creación de la orden.
+\end{itemize}
+
+Esta funcionalidad agiliza el proceso de compras al reutilizar información ya validada por el área operativa, asegurando coherencia entre lo solicitado y lo adquirido.
+
+\subsubsection{Ventana Emergente: Crear Orden de Compra}
+
+Al seleccionar una solicitud desde la ventana emergente de ``Crear O.C. desde solicitud'', el sistema carga automáticamente los datos de la solicitud de material y los relaciona en el formulario de la orden de compra.
+
+\textbf{Auto-relleno de datos}
+
+Al presionar el botón de edición sobre una solicitud de material (SM), el sistema auto-rellena los campos del formulario con:
+
+\begin{itemize}
+    \item Productos solicitados
+    \item Cantidades
+    \item Proveedor sugerido
+    \item Observaciones
+    \item Sucursal y folio de la SM
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png}
+    \caption{Vista del botón de edición y auto-relleno de datos en el formulario}
+\end{figure}
+
+\subsubsection{Modes de creación disponibles}
+
+El sistema ofrece tres modos de creación de orden de compra, según el origen o tipo de operación:
+
+\begin{enumerate}
+    \item \textbf{General} \\
+    Para compras institucionales o sin un solicitante específico.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_1.png}
+        \caption{Modo General de creación de orden de compra}
+    \end{figure}
+
+    \item \textbf{Solicitante} \\
+    Asociadas directamente a una persona o área que realizó la solicitud.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png}
+        \caption{Modo Solicitante de creación de orden de compra}
+    \end{figure}
+
+    \item \textbf{Proveedor} \\
+    Enfocadas en compras directas a un proveedor específico, incluso si no hay SM previa.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png}
+        \caption{Modo Proveedor de creación de orden de compra}
+    \end{figure}
+
+\end{enumerate}
+
+\subsubsection{Gestión de productos (Items)}
+
+En cualquiera de los tres modos, el usuario puede administrar los productos incluidos en la orden:
+
+\begin{itemize}
+    \item \textbf{Agregar Item (Botón)}:  
+    Permite añadir un nuevo producto al listado, ingresando descripción, cantidad, marca, categoría, número de parte, proveedor y precio unitario.
+
+    \item \textbf{Eliminar Item}:  
+    Si un producto no es necesario o fue agregado por error, puede eliminarse mediante el botón rojo \textbf{Eliminar} junto al producto correspondiente.
+\end{itemize}
+
+\textbf{Finalizar orden}
+
+Una vez revisados y completados todos los campos, el usuario debe presionar el botón \textbf{``Crear Orden''} para registrar la orden de compra en el sistema.
+
+
+\subsubsection{3.3.2 Crear Nueva orden de compra (ingresando manualmente los datos)}
+
+\begin{justify}
+La opción \textbf{Crear Nueva O.C.} permite registrar una orden de compra desde cero, sin depender de una solicitud de material previa. Esta funcionalidad es útil para compras directas, adquisiciones especiales o casos donde se requiere mayor flexibilidad en el ingreso de datos.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png}
+    \caption{Vista del formulario para crear una nueva orden de compra}
+\end{figure}
+
+\subsubsection{Formulario de registro}
+
+\begin{justify}
+Al presionar el botón \textbf{``Crear Nueva O.C.''}, se despliega un formulario completo dividido en secciones:
+\end{justify}
+
+\begin{enumerate}
+    \item \textbf{General}: Para compras institucionales o sin un solicitante específico.
+    \item \textbf{Solicitante}: Asociadas directamente a una persona o área que realizó la solicitud.
+    \item \textbf{Proveedor}: Enfocadas en compras directas a un proveedor específico, incluso si no hay SM previa.
+\end{enumerate}
+
+\subsubsection*{Sección de productos (Items)}
+
+\begin{justify}
+En esta sección se ingresan manualmente los productos o servicios que serán incluidos en la orden:
+\end{justify}
+
+\begin{itemize}
+    \item Descripción
+    \item Cantidad
+    \item Marca
+    \item Categoría
+    \item Número de parte
+    \item Proveedor
+    \item Unidad
+    \item Duración de servicios (si aplica)
+    \item Precio unitario
+    \item Producto en inventario: Indica si el producto está registrado en el sistema o es externo.
+\end{itemize}
+
+\textbf{Funciones disponibles:}
+\begin{itemize}
+    \item \textbf{Agregar Item}: Permite añadir otro producto al listado.
+    \item \textbf{Eliminar Item}: Si un producto fue ingresado por error, puede eliminarse con el botón rojo \textbf{Eliminar}.
+\end{itemize}
+
+\subsubsection*{Finalizar orden}
+
+\begin{justify}
+Una vez completados todos los campos y revisados los productos, el usuario debe presionar el botón \textbf{``Crear Orden''} para registrar la orden en el sistema.
+\end{justify}
+
+\subsubsection{Solicitante}
+
+\begin{justify}
+Persona o área que solicita la compra. Este modo permite asociar la orden de compra directamente con quien hizo la solicitud, facilitando el control y rastreo interno.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png}
+    \caption{Vista del modo Solicitante en el formulario}
+\end{figure}
+\subsubsection{Proveedor}
+
+\begin{justify}
+Enfocado en compras directas a un proveedor específico, incluso si no existe una solicitud de material previa. Ideal para compras urgentes o acuerdos comerciales directos.
+\end{justify}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png}
+    \caption{Vista del modo Proveedor en el formulario}
+\end{figure}
+
+
+
+
+
+\subsection{3.4 Entregas de Solicitudes de material (SM)}
+\begin{justify}
+La sección \textbf{Entregas de SM} permite registrar y gestionar la entrega de materiales solicitados por diferentes áreas de la empresa. Esta funcionalidad forma parte del módulo de Administración y está diseñada para asegurar que cada solicitud sea atendida correctamente, con trazabilidad y control sobre lo entregado.
+\end{justify}
+
 
 Para entregar materiales:
 
@@ -436,12 +667,91 @@ Para entregar materiales:
     \item Despacha los productos desde el almacén.
 \end{itemize}
 
+
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Administracion/Entregas_sm/entregas_sm_1.png}
     \caption{Entrega de SM.}
     \label{fig:admin5}
 \end{subfigure}
 \caption{Interfaz de entrega de solicitudes de material.}
 \end{figure}
+
+
+\subsubsection{3.4.1 Paso 1: Seleccionar una solicitud de material (SM)}
+\begin{justify}
+En la parte superior derecha de la pantalla encontrarás un selector desplegable. Desde ahí puedes elegir una solicitud de material registrada previamente. Al seleccionar una SM, el sistema carga automáticamente toda la información relacionada con esa solicitud. Los campos del formulario se rellenan de forma automática y no son editables, ya que reflejan los datos originales de la solicitud. Una vez cargada, el sistema muestra una notificación confirmando que la SM ha sido cargada correctamente.
+\end{justify}
+
+\textbf{Información mostrada en el formulario}
+
+\begin{itemize}
+    \item Fecha de solicitud
+    \item Contrato asociado
+    \item Usuario solicitante
+    \item Personal técnico
+    \item Número de pedido
+    \item Planta
+    \item Área / Ubicación
+    \item Fecha crítica de entrega
+    \item Área dirigida
+\end{itemize}
+
+\begin{justify}
+Estos datos sirven como referencia para validar que estás trabajando sobre la solicitud correcta.
+\end{justify}
+\subsection{Items y Entregas}
+
+\begin{justify}
+La tabla de \textbf{Bienes solicitados y entregados}, ubicada en la parte inferior del formulario, es donde se gestiona la entrega real de los materiales solicitados. Aunque el formulario principal se rellena automáticamente y no es editable, esta tabla sí permite interacción directa por parte del usuario.
+\end{justify}
+
+\textbf{Campos visibles en la tabla:}
+
+\begin{itemize}
+    \item \textbf{Descripción}: Nombre del material solicitado.
+    \item \textbf{Cantidad}: Total solicitado en la SM.
+    \item \textbf{Unidad}: Unidad de medida (ej. pieza, metro, litro).
+    \item \textbf{Entregado}: Cantidad ya entregada.
+    \item \textbf{Entregar}: Cantidad que se desea entregar en este momento.
+    \item \textbf{Estado}: Indica si el material ya fue entregado o está pendiente.
+    \item \textbf{Acciones}: Opciones disponibles para cada ítem.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png}
+    \caption{Vista de la tabla de Items y su gestión de entregas}
+\end{figure}
+
+\subsubsection*{Acciones (Botones)}
+
+\begin{justify}
+En la columna \textbf{Acciones}, el usuario puede registrar la entrega de cada ítem:
+\end{justify}
+
+\begin{itemize}
+    \item Si el material está disponible, se puede indicar como \textbf{Stock suficiente}.
+    \item Si no hay disponibilidad, se puede marcar como \textbf{Stock insuficiente}.
+    \item Al ingresar una cantidad en el campo \textbf{Entregar}, el sistema actualiza automáticamente el estado del ítem.
+\end{itemize}
+
+\begin{justify}
+Esto permite llevar un control preciso de lo que se entrega en cada sesión, sin alterar la solicitud original.
+\end{justify}
+
+\subsubsection*{Guardar entregas}
+
+\begin{justify}
+Una vez que se han registrado las cantidades entregadas para cada ítem:
+\end{justify}
+
+\begin{itemize}
+    \item Verifica que los datos estén correctos.
+    \item Presiona el botón \textbf{``Guardar entregas''} para confirmar y registrar la operación en el sistema.
+\end{itemize}
+
+\begin{justify}
+Esto asegura que la entrega quede documentada y que el área solicitante pueda continuar con el proceso de validación o firma.
+\end{justify}

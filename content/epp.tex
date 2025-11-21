@@ -1,8 +1,42 @@
 \chapter{Almacén de Productos de Seguridad (EPP)}
 
-Este módulo está diseñado para gestionar el inventario y la aprobación de vales relacionados con equipos de protección personal (EPP). Su objetivo es asegurar que los productos de seguridad estén disponibles, correctamente registrados y entregados conforme a los protocolos establecidos.
+\begin{justify}
+Este módulo está diseñado exclusivamente para la gestión de productos de seguridad personal (EPP), utilizados por el personal técnico y operativo en sus actividades diarias. Su objetivo es mantener un control preciso del inventario de equipos de protección y facilitar la entrega autorizada mediante vales internos.
+
+El módulo se divide en dos secciones principales:
+
+\begin{itemize}
+    \item \textbf{Inventario de productos de seguridad}\\
+    Permite registrar, consultar y actualizar los artículos disponibles en el almacén de EPP, como cascos, guantes, chalecos, gafas, etc.
+
+    \item \textbf{Aprobación de vales}\\
+    Gestiona la validación y autorización de vales de entrega de EPP solicitados por los usuarios. Asegura que cada entrega esté documentada y aprobada conforme a los protocolos internos.
+\end{itemize}
+\end{justify}
+
+
+\newpage
+\pagestyle{fancy}
+
 
 \subsection{Inventario de productos de Seguridad (EPP)}
+
+
+\begin{justify}
+    La sección \textbf{Inventario EPP} permite consultar, organizar y mantener actualizada la base de datos de todos los productos de seguridad disponibles en el almacén. Está diseñada exclusivamente para equipos de protección personal (EPP), como cascos, guantes, chalecos, camisas reflejantes, entre otros.
+    
+    Esta funcionalidad es utilizada por el personal encargado del almacén para verificar existencias, identificar proveedores y asegurar que los productos estén correctamente clasificados y localizados.
+\end{justify}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.8\textwidth}
+        \includegraphics[width=\textwidth]{imgs/Almacen_Epp/alm_epp_1.png}
+        \caption{Inventario de EPP.}
+        \label{fig:epp1}
+    \end{subfigure}
+    \caption{Vista del inventario de productos de seguridad.}
+\end{figure}
 
 En esta sección, los usuarios pueden consultar y administrar los productos de seguridad disponibles en el almacén.
 
@@ -12,20 +46,106 @@ En esta sección, los usuarios pueden consultar y administrar los productos de s
     \item Edición de información como marca, proveedor y stock.
     \item Filtros por tipo de producto y proveedor.
 \end{itemize}
+ 
+\subsubsection{Filtros y búsqueda}
+
+En la parte superior de la interfaz, el sistema ofrece herramientas para facilitar la consulta:
+
+\begin{itemize}
+    \item Filtro por categoría.
+    \item Filtro por proveedor.
+    \item Barra de búsqueda para SKU o ID de parte.
+\end{itemize}
+
+Estas opciones permiten localizar rápidamente productos específicos o revisar existencias por proveedor.  
+Esta sección es clave para mantener el control del inventario de seguridad, asegurando que el personal técnico cuente con los equipos necesarios para operar de forma segura y conforme a los protocolos internos.
+
+\subsubsection{Campos visibles en la tabla de inventario}
+
+Cada producto registrado se muestra en una tabla con los siguientes campos:
+
+\begin{itemize}
+    \item \textbf{Descripción}: Nombre del producto (ej. “Casco gris”, “Guante anticorte T9”).
+    \item \textbf{SKU}: Código interno del producto.
+    \item \textbf{ID de parte}: Identificador técnico o comercial.
+    \item \textbf{ID}: Número único asignado por el sistema.
+    \item \textbf{Categoría}: Siempre clasificado como “EPP”.
+    \item \textbf{Proveedor}: Empresa que suministra el producto.
+    \item \textbf{Tipo}: Clasificación interna (ej. genérico, especializado).
+    \item \textbf{Marca}: Marca comercial del producto.
+    \item \textbf{Ubicación}: Área física dentro del almacén donde se encuentra el producto.
+    \item \textbf{Tipo (duplicado)}: Puede representar una subclasificación adicional.
+    \item \textbf{Acciones}: Botones disponibles para cada producto.
+\end{itemize}
+
+\subsubsection{Funcionalidad del botón en “Acciones”}
+
+En la columna Acciones, cada producto incluye un botón identificado con un icono de “Ver”.  
+Al presionar este botón, el sistema despliega una ventana emergente con información detallada del producto seleccionado.
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
-    \caption{Inventario de EPP.}
-    \label{fig:epp1}
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Almacen_Epp/alm_epp_inv_acciones.png}
+    \caption{Botón de acciones por producto.}
+    \label{fig:epp_acciones}
 \end{subfigure}
-\caption{Vista del inventario de productos de seguridad.}
+\hfill
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Almacen_Epp/abrir_acciones.png}
+    \caption{Ventana emergente con detalles del producto.}
+    \label{fig:epp_modal}
+\end{subfigure}
+\caption{Vista de acciones disponibles y ventana emergente de detalle por producto en el inventario de EPP.}
 \end{figure}
 
-\subsection{Aprobar Vales de Seguridad}
+\subsubsection{Ventana emergente: Visualizar Producto EPP}
 
-Esta función permite validar y autorizar la entrega de productos de seguridad solicitados por los colaboradores.
+\begin{justify}
+Al presionar el botón de ver producto en la columna \textbf{Acciones} de la tabla de inventario EPP, el sistema despliega una ventana emergente titulada \textit{``Visualizar Producto EPP''}. Esta ventana permite consultar información detallada del artículo seleccionado, sin necesidad de salir de la vista principal del inventario.
+\end{justify}
+
+\noindent \textbf{Campos mostrados en la ventana:}
+
+\begin{itemize}
+    \item \textbf{Nombre:} Nombre completo del producto (ej. “CABLE DE ACERO HAWK C”).
+    \item \textbf{Código de barras:} Identificador escaneable único.
+    \item \textbf{UDM (Unidad de medida):} Unidad en la que se contabiliza el producto (ej. pieza, par).
+    \item \textbf{Stock:} Cantidad disponible en almacén.
+    \item \textbf{Categoría:} Clasificación del producto (por defecto “EPP”, aunque también puede mostrar otras como “Herramienta”).
+    \item \textbf{Proveedor:} Empresa que suministra el producto.
+    \item \textbf{Interno:} Indica si el producto es de uso interno.
+    \item \textbf{Número de parte:} Código técnico o comercial del producto.
+    \item \textbf{Ubicación:} Área física dentro del almacén donde se encuentra el producto.
+    \item \textbf{Marca:} Marca comercial del artículo.
+\end{itemize}
+
+
+
+\subsection{Aprobar Vales de Seguridad}
+\begin{justify}
+La sección \textbf{Aprobar vales de seguridad} permite gestionar las solicitudes de entrega de productos de seguridad (EPP) realizadas por los empleados. Este módulo asegura que cada vale sea revisado, validado y aprobado por el responsable correspondiente, manteniendo trazabilidad y control sobre el uso de los equipos.
+\end{justify}
+
+\subsubsection{Tabla de Vales}
+
+\begin{justify}
+En la vista principal se muestra una tabla con los vales registrados, organizada por los siguientes campos:
+\end{justify}
+
+\begin{itemize}
+    \item \textbf{Empresa:} Unidad o sede donde se origina la solicitud.
+    \item \textbf{Transacción:} Tipo de movimiento o motivo del vale (ej. GRUAS, AUTO).
+    \item \textbf{Empleado solicitante:} Persona que solicita el equipo.
+    \item \textbf{Empleado aprobador:} Responsable de validar la solicitud.
+    \item \textbf{Estado:} Indica si el vale está \textbf{Pendiente (rojo)} o \textbf{Aprobado (verde)}.
+    \item \textbf{Acciones:} Íconos disponibles para cada solicitud.
+\end{itemize}
+
+\begin{justify}
+    
+    Esta función permite validar y autorizar la entrega de productos de seguridad solicitados por los colaboradores.
+\end{justify}
 
 \begin{itemize}
     \item Revisión de solicitudes pendientes.
@@ -36,13 +156,106 @@ Esta función permite validar y autorizar la entrega de productos de seguridad s
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Almacen_Epp/aprovar_vale_epp_1.png}
     \caption{Aprobación de vales.}
     \label{fig:epp2}
 \end{subfigure}
 \caption{Interfaz para aprobar vales de seguridad.}
 \end{figure}
+
+\subsubsection{Botón de ver en Acciones}
+
+\begin{justify}
+En la columna \textbf{Acciones}, cada vale incluye un ícono de visualización (\textbf{Ver}). Al presionarlo:
+\end{justify}
+
+\begin{itemize}
+    \item Se despliega una ventana emergente justo arriba de la tabla.
+    \item Esta ventana muestra información detallada del vale seleccionado, sin necesidad de cambiar de pantalla.
+\end{itemize}
+
+\subsubsection*{Contenido de la ventana emergente}
+
+\begin{justify}
+La ventana emergente incluye dos secciones principales:
+\end{justify}
+
+\begin{enumerate}
+    \item \textbf{Ítems de la solicitud}
+    \begin{itemize}
+        \item Nombre del producto solicitado (ej. ``TAPÓN AUDITIVO EN BOLSA'').
+        \item Cantidad requerida.
+        \item Unidad de medida.
+        \item Observaciones (si las hay).
+        \item Botón \textbf{Aprobar} para validar el ítem.
+    \end{itemize}
+
+    \item \textbf{Historial de eventos}
+    \begin{itemize}
+        \item Muestra una línea de tiempo con las acciones realizadas:
+        \begin{itemize}
+            \item Creación del vale.
+            \item Envío de solicitud de aprobación.
+            \item Estado actual del vale (ej. Pendiente).
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+\begin{justify}
+Esta vista permite al aprobador revisar cada detalle antes de tomar una decisión.
+\end{justify}
+
+% Imagen
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{imgs/Almacen_Epp/aprobar_vale_epp_acciones.png}
+\caption{Ventana emergente de visualización del vale.}
+\label{fig:vale_detalle}
+\end{figure}
+
+\subsection{Aprobación de vales de seguridad: flujo operativo}
+
+\begin{justify}
+La acción de aprobar un vale de seguridad es una etapa clave dentro del proceso de entrega de productos de seguridad (EPP). Esta aprobación no ocurre directamente en el almacén, sino que forma parte de un flujo previo que inicia en el módulo de Operaciones.
+\end{justify}
+
+\subsubsection{Origen del vale}
+
+\begin{justify}
+El vale de seguridad es generado por un líder o gerente desde la sección \textbf{Vales}, ubicada en el módulo de Operaciones. Esta solicitud incluye los productos requeridos por el personal técnico u operativo, junto con las cantidades y observaciones necesarias.
+\end{justify}
+
+\subsubsection{Aprobación inicial}
+
+\begin{justify}
+Una vez generado el vale, el empleado encargado de productos de seguridad accede a la sección \textbf{Aprobar vales de seguridad}. Al visualizar los detalles del vale (mediante el botón \textbf{Ver} en la columna Acciones), puede revisar los productos solicitados y su historial. Si todo está correcto, debe presionar el botón \textbf{Aprobar} para validar la solicitud. Esta acción confirma que los productos están disponibles y que la solicitud cumple con los criterios internos.
+\end{justify}
+
+\subsubsection{Flujo posterior}
+
+\begin{itemize}
+    \item El sistema actualiza el estado del vale a \textbf{Aprobado}.
+    \item El vale pasa a otro departamento (como almacén o logística) para continuar con el proceso de entrega física, firma o validación final.
+\end{itemize}
+
+\begin{justify}
+Este flujo asegura que cada entrega de EPP esté respaldada por una solicitud formal, validada por responsables y registrada correctamente en el sistema.
+\end{justify}
+
+% Imagen de notificación de aprobación
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{imgs/Almacen_Epp/notifcacion_apro_epp.png}
+\caption{Notificación de aprobación realizada con éxito.}
+\label{fig:vale_aprobado}
+\end{figure}
+
+
+
+
+
+
 
 \subsection{Flujo operativo de aprobación de vales}
 
@@ -56,12 +269,3 @@ El proceso de aprobación sigue un flujo estructurado:
     \item El vale queda marcado como completado en el sistema.
 \end{enumerate}
 
-\begin{figure}[h]
-\centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
-    \caption{Flujo de aprobación.}
-    \label{fig:epp3}
-\end{subfigure}
-\caption{Proceso operativo para vales de seguridad.}
-\end{figure}

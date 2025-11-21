@@ -1,10 +1,58 @@
 \chapter{Cargos}
 
-Este módulo permite gestionar los cargos asignados a líderes, gerentes y otros colaboradores dentro de la organización. Su objetivo es mantener una estructura clara de responsabilidades y facilitar la trazabilidad de acciones en el sistema.
+\begin{justify}
+El módulo \textbf{Cargos} está diseñado para gestionar la asignación de puestos dentro de la organización, de forma estructurada y controlada según los permisos del usuario. Esta funcionalidad permite visualizar, editar y administrar los roles que ocupan los empleados en cada departamento, asegurando que la jerarquía y responsabilidades estén correctamente documentadas.
+\end{justify}
 
-\subsection{Asignación de cargos}
+\begin{justify}
+La visibilidad y capacidad de edición dentro del módulo varía según el área a la que pertenece el usuario:
+\end{justify}
 
-La asignación de cargos se realiza desde una interfaz que permite:
+\begin{itemize}
+    \item \textbf{Recursos Humanos (RH)}  
+    \begin{itemize}
+        \item Puede agregar, editar y eliminar puestos de todo el personal.
+        \item Tiene acceso completo a la estructura organizacional.
+    \end{itemize}
+
+    \item \textbf{Dirección}  
+    \begin{itemize}
+        \item Puede gestionar exclusivamente los puestos asignados al área directiva.
+        \item Ideal para validar cargos estratégicos y de liderazgo.
+    \end{itemize}
+
+    \item \textbf{Operaciones}  
+    \begin{itemize}
+        \item Accede a los puestos relacionados con el área operativa, como líderes de campo, supervisores y técnicos.
+        \item Permite mantener actualizada la estructura funcional del equipo operativo.
+    \end{itemize}
+
+    \item \textbf{Administración}  
+    \begin{itemize}
+        \item Dirigido a jefes y gerentes de departamento.
+        \item Permite revisar y ajustar los cargos internos dentro de su área específica.
+    \end{itemize}
+\end{itemize}
+
+\begin{justify}
+Este módulo es clave para mantener la trazabilidad de responsabilidades, facilitar procesos de validación y asegurar que cada empleado esté correctamente vinculado a su rol dentro del sistema.
+\end{justify}
+
+
+
+\newpage
+\pagestyle{fancy}
+
+
+
+\section{Asignación de cargos}
+\begin{justify}
+La sección \textbf{Asignación de Cargos} permite visualizar y administrar los puestos asignados a cada empleado dentro de la organización. Esta funcionalidad es clave para mantener actualizada la estructura operativa y jerárquica de cada departamento.
+\end{justify}
+
+\begin{justify}
+    La asignación de cargos se realiza desde una interfaz que permite:
+\end{justify}
 
 \begin{itemize}
     \item Registrar nuevos cargos para usuarios existentes.
@@ -12,55 +60,94 @@ La asignación de cargos se realiza desde una interfaz que permite:
     \item Editar cargos asignados previamente.
 \end{itemize}
 
+
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Cargos/cargos_1.png}
     \caption{Asignación de cargos.}
     \label{fig:cargos1}
 \end{subfigure}
 \caption{Interfaz para asignar cargos a colaboradores.}
 \end{figure}
 
+
+
+
 \subsection{Lista de líderes y gerentes con sus cargos}
+\begin{justify}
+    La sección \textbf{Lista de líderes y gerentes con sus cargos} ofrece una visión detallada de la estructura organizacional, mostrando quiénes ocupan los puestos clave dentro de la empresa. Esta funcionalidad facilita la gestión y supervisión de los roles asignados, asegurando que la información esté siempre actualizada y accesible para los usuarios autorizados.
+    En esta pantalla se presenta una tabla que muestra los cargos asignados dentro de la organización, permitiendo una visualización clara de la estructura jerárquica y operativa. La tabla está organizada por los siguientes campos:
+\end{justify}
 
+\begin{itemize}
+    \item \textbf{Número}: Identificador único de la asignación.
+    \item \textbf{Nombre}: Título del cargo (por ejemplo: Gerente Operaciones, Líder CCTV).
+    \item \textbf{Empleado}: Nombre completo del colaborador asignado.
+    \item \textbf{Departamento}: Área a la que pertenece el cargo (por ejemplo: Operaciones, Dirección).
+    \item \textbf{Cargos}: Subcategoría o proyecto específico asociado (por ejemplo: SITE, CCTV, RFID).
+    \item \textbf{Acciones}: Íconos disponibles para editar o eliminar la asignación.
+\end{itemize}
 La pantalla muestra una tabla con los siguientes campos:
-
 \begin{itemize}
     \item Nombre del colaborador.
     \item Cargo asignado.
     \item Departamento.
     \item Fecha de asignación.
 \end{itemize}
+\subsubsection{Selector de Departamento}
 
-Esta lista permite filtrar por departamento o buscar por nombre para facilitar la gestión.
+\begin{justify}
+    En la parte derecha de la pantalla, el sistema incluye un selector desplegable que permite al usuario elegir el departamento del cual desea consultar o editar los cargos asignados. Este selector filtra la tabla de asignaciones, mostrando únicamente los cargos correspondientes al departamento seleccionado. Esto resulta especialmente útil para usuarios que tienen acceso a múltiples áreas o que necesitan gestionar roles específicos dentro de su unidad.
+    
+\end{justify}
+
+\subsubsection*{Acceso según rol}
+
+\begin{itemize}
+    \item Si el usuario es líder o gerente de un departamento, podrá editar los cargos dentro del área seleccionada.
+    \item Si el usuario no tiene permisos sobre ese departamento, el sistema bloqueará las acciones de edición, permitiendo solo la visualización.
+\end{itemize}
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
-    \caption{Lista de cargos.}
+\begin{subfigure}{0.8\textwidth}
+    \includegraphics[width=\textwidth]{imgs/Cargos/cargos_selector.png}
+    \caption{Selector de Departamento.}
     \label{fig:cargos2}
 \end{subfigure}
-\caption{Visualización de líderes y gerentes con sus cargos.}
+\caption{Selector de Departamento.}
 \end{figure}
 
+
+
 \subsection{Editar cargo}
+\begin{justify}
+    Al presionar el ícono de editar, se despliega una ventana emergente que permite modificar la asignación del cargo. Esta ventana incluye:
+\end{justify}
 
-Para modificar un cargo:
-
+\begin{itemize}
+    \item \textbf{Titular:} Selección del empleado principal que ocupará el cargo.
+    \item \textbf{Otros:} Campo para agregar colaboradores adicionales vinculados al mismo cargo.
+    \item \textbf{Botón ``Guardar'':} Registra los cambios realizados.
+\end{itemize}
+\begin{justify}
+    Esta funcionalidad está protegida por permisos y solo se habilita si el usuario tiene autoridad sobre el área correspondiente.
+    Para modificar un cargo:
+\end{justify}
 \begin{itemize}
     \item Selecciona al colaborador desde la lista.
     \item Haz clic en el botón “Editar”.
     \item Actualiza el cargo y guarda los cambios.
 \end{itemize}
-
-El sistema registrará la modificación y actualizará la trazabilidad del usuario.
+\begin{justify}
+    El sistema registrará la modificación y actualizará la trazabilidad del usuario.
+\end{justify}
 
 \begin{figure}[h]
 \centering
 \begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{imgs/no-image.png}
+    \includegraphics[width=\textwidth]{imgs/Cargos/cargo_editar.png}
     \caption{Edición de cargo.}
     \label{fig:cargos3}
 \end{subfigure}
