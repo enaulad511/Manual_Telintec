@@ -1192,4 +1192,813 @@ Package pdftex.def Info: imgs/Almacen_General/Solicitudes_de_materia_SM/acciones
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead
+(Font)              using `T1/lmr/bx/n' instead on input line 606.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 627.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 627.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[21 <./imgs/Almacen_General/Solicitudes_de_materia_SM/Agregar_producto_nuevo_despachado.png> <./imgs/Almacen_General/Solicitudes_de_materia_SM/acciones.png>]
+<imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png, id=585, 887.388pt x 204.984pt>
+File: imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png Graphic file (type png)
+<use imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png>
+Package pdftex.def Info: imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png  used on input line 638.
+(pdftex.def)             Requested size: 422.52057pt x 97.59985pt.
+<imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png, id=587, 988.347pt x 592.176pt>
+File: imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png Graphic file (type png)
+<use imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png>
+Package pdftex.def Info: imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png  used on input line 649.
+(pdftex.def)             Requested size: 422.52057pt x 253.14883pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 664.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 664.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[22 <./imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm.png> <./imgs/Almacen_General/Solicitudes_de_materia_SM/actualizar_sm_full.png>]
+<imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png, id=597, 995.574pt x 572.028pt>
+File: imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png  used on input line 668.
+(pdftex.def)             Requested size: 422.52057pt x 242.76392pt.
+<imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png, id=599, 975.207pt x 576.627pt>
+File: imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png  used on input line 701.
+(pdftex.def)             Requested size: 422.52057pt x 249.82768pt.
+
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 705.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 705.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[23 <./imgs/Almacen_General/Procesamiento_SM/procesamiento_general.png>]
+<imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png, id=607, 256.45813pt x 275.0275pt>
+File: imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png  used on input line 736.
+(pdftex.def)             Requested size: 185.72583pt x 199.16928pt.
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 740.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 740.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[24 <./imgs/Almacen_General/Procesamiento_SM/informacion_general_solicitud.png>]
+<imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png, id=615, 492.33937pt x 270.00874pt>
+File: imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png  used on input line 762.
+(pdftex.def)             Requested size: 422.52057pt x 231.72919pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 774.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 774.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[25 <./imgs/Almacen_General/Procesamiento_SM/procesamiento_sm_progeso_sm.png> <./imgs/Almacen_General/Procesamiento_SM/procesamieno_sm_resumen_cantidades.png>]
+<imgs/Almacen_General/Procesamiento_SM/accionesitem.png, id=625, 604.44pt x 270.027pt>
+File: imgs/Almacen_General/Procesamiento_SM/accionesitem.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/accionesitem.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/accionesitem.png  used on input line 786.
+(pdftex.def)             Requested size: 422.52057pt x 188.75389pt.
+<imgs/Almacen_General/Procesamiento_SM/reservacion_items.png, id=627, 709.779pt x 554.07pt>
+File: imgs/Almacen_General/Procesamiento_SM/reservacion_items.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/reservacion_items.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/reservacion_items.png  used on input line 818.
+(pdftex.def)             Requested size: 422.52057pt x 329.8406pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 822.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 822.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[26 <./imgs/Almacen_General/Procesamiento_SM/accionesitem.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 852.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 852.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[27 <./imgs/Almacen_General/Procesamiento_SM/reservacion_items.png>]
+<imgs/Almacen_General/Procesamiento_SM/orden de compra.png, id=646, 743.505pt x 379.527pt>
+File: imgs/Almacen_General/Procesamiento_SM/orden de compra.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/orden de compra.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/orden de compra.png  used on input line 868.
+(pdftex.def)             Requested size: 422.52057pt x 215.67822pt.
+<imgs/Almacen_General/Procesamiento_SM/acciones-globales.png, id=648, 630.939pt x 231.483pt>
+File: imgs/Almacen_General/Procesamiento_SM/acciones-globales.png Graphic file (type png)
+<use imgs/Almacen_General/Procesamiento_SM/acciones-globales.png>
+Package pdftex.def Info: imgs/Almacen_General/Procesamiento_SM/acciones-globales.png  used on input line 892.
+(pdftex.def)             Requested size: 422.52057pt x 155.02216pt.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 893.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 893.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 893.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 893.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 896.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 896.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[28 <./imgs/Almacen_General/Procesamiento_SM/orden de compra.png>]
+<imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png, id=655, 814.04124pt x 350.30875pt>
+File: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png  used on input line 908.
+(pdftex.def)             Requested size: 399.05278pt x 171.72227pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 936.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 936.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[29 <./imgs/Almacen_General/Procesamiento_SM/acciones-globales.png> <./imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_epp_general.png>]
+<imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png, id=664, 799.98875pt x 309.155pt>
+File: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png  used on input line 982.
+(pdftex.def)             Requested size: 422.52057pt x 163.28528pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 992.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 992.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[30 <./imgs/Almacen_General/VALES-DESPACHO/DESPACHO-EPP/despacho_vales_epp_sign.png>]
+<imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png, id=671, 809.0225pt x 281.55188pt>
+File: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png  used on input line 1066.
+(pdftex.def)             Requested size: 422.52057pt x 147.04364pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1070.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1070.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[31]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1111.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1111.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[32 <./imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas.png>]
+<imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png, id=683, 812.53563pt x 381.425pt>
+File: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png  used on input line 1136.
+(pdftex.def)             Requested size: 422.52057pt x 198.34213pt.
+<imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png, id=684, 806.51312pt x 393.47pt>
+File: imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png  used on input line 1158.
+(pdftex.def)             Requested size: 225.34383pt x 109.93669pt.
+<imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png, id=685, 419.5675pt x 295.1025pt>
+File: imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png Graphic file (type png)
+<use imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png>
+Package pdftex.def Info: imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png  used on input line 1165.
+(pdftex.def)             Requested size: 225.34383pt x 158.4929pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1173.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1173.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[33 <./imgs/Almacen_General/VALES-DESPACHO/DESPACHO-HERRAMIENTAS/despacho_herramientas_aprobar.png>]) (content/administration.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 2.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 2.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[34 <./imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_prestadas.png> <./imgs/Almacen_General/VALES-DESPACHO/herramientas-prestadas/tools_ver.png>]
+Cap\'{\i }tulo 3.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 21.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[35
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 27.
+
+<imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png, id=703, 899.86188pt x 618.31pt>
+File: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png Graphic file (type png)
+<use imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png>
+Package pdftex.def Info: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png  used on input line 47.
+(pdftex.def)             Requested size: 375.57782pt x 258.06567pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 79.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 79.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[36 <./imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_tabla.png>]
+<imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png, id=710, 884.80562pt x 459.7175pt>
+File: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png Graphic file (type png)
+<use imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png>
+Package pdftex.def Info: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png  used on input line 127.
+(pdftex.def)             Requested size: 211.26028pt x 109.75925pt.
+<imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png, id=711, 888.31876pt x 263.98625pt>
+File: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png Graphic file (type png)
+<use imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png>
+Package pdftex.def Info: imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png  used on input line 134.
+(pdftex.def)             Requested size: 211.26028pt x 62.77794pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 149.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 149.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[37 <./imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/editar elemento de lista de provedores.png> <./imgs/Administracion/BASE_DE_DATOS/administracion-BASEDEDATOS/ad_bd_provedores_tabla.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 225.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 225.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[38]
+<imgs/Administracion/Contratos/contratos_1.png, id=724, 630.063pt x 368.9055pt>
+File: imgs/Administracion/Contratos/contratos_1.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contratos_1.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contratos_1.png  used on input line 229.
+(pdftex.def)             Requested size: 399.05278pt x 233.65572pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 257.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 257.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[39 <./imgs/Administracion/Contratos/contratos_1.png>]
+<imgs/Administracion/Contratos/contratos_d_documentos.png, id=731, 631.158pt x 180.018pt>
+File: imgs/Administracion/Contratos/contratos_d_documentos.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contratos_d_documentos.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contratos_d_documentos.png  used on input line 270.
+(pdftex.def)             Requested size: 399.05278pt x 113.81572pt.
+<imgs/Administracion/Contratos/contratos_partidas_cargadas.png, id=732, 611.886pt x 346.02pt>
+File: imgs/Administracion/Contratos/contratos_partidas_cargadas.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contratos_partidas_cargadas.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contratos_partidas_cargadas.png  used on input line 277.
+(pdftex.def)             Requested size: 399.05278pt x 225.66534pt.
+<imgs/Administracion/Contratos/contrato_desde_datos.png, id=733, 534.798pt x 116.508pt>
+File: imgs/Administracion/Contratos/contrato_desde_datos.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contrato_desde_datos.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contrato_desde_datos.png  used on input line 300.
+(pdftex.def)             Requested size: 399.05278pt x 86.93633pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 304.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 304.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[40 <./imgs/Administracion/Contratos/contratos_d_documentos.png> <./imgs/Administracion/Contratos/contratos_partidas_cargadas.png>]
+<imgs/Administracion/Contratos/contratos_crear_new_product.png, id=742, 275.94pt x 258.201pt>
+File: imgs/Administracion/Contratos/contratos_crear_new_product.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contratos_crear_new_product.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contratos_crear_new_product.png  used on input line 310.
+(pdftex.def)             Requested size: 399.05278pt x 373.40083pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 329.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 329.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[41 <./imgs/Administracion/Contratos/contrato_desde_datos.png> <./imgs/Administracion/Contratos/contratos_crear_new_product.png>]
+<imgs/Administracion/Contratos/contratos_editar.png, id=751, 494.283pt x 276.159pt>
+File: imgs/Administracion/Contratos/contratos_editar.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contratos_editar.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contratos_editar.png  used on input line 333.
+(pdftex.def)             Requested size: 399.05278pt x 222.95013pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 380.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 380.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[42 <./imgs/Administracion/Contratos/contratos_editar.png>]
+<imgs/Administracion/Contratos/contrato_btn_actualizar.png, id=758, 576.846pt x 208.488pt>
+File: imgs/Administracion/Contratos/contrato_btn_actualizar.png Graphic file (type png)
+<use imgs/Administracion/Contratos/contrato_btn_actualizar.png>
+Package pdftex.def Info: imgs/Administracion/Contratos/contrato_btn_actualizar.png  used on input line 388.
+(pdftex.def)             Requested size: 305.15294pt x 110.28815pt.
+<imgs/Administracion/Ordenes_compra/od_comp_1.png, id=759, 902.28pt x 250.755pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_1.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_1.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_1.png  used on input line 415.
+(pdftex.def)             Requested size: 375.57782pt x 104.37895pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 438.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 438.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[43 <./imgs/Administracion/Contratos/contrato_btn_actualizar.png> <./imgs/Administracion/Ordenes_compra/od_comp_1.png>]
+<imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png, id=769, 889.359pt x 250.755pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png  used on input line 483.
+(pdftex.def)             Requested size: 341.43306pt x 96.2674pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 501.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 501.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[44 <./imgs/Administracion/Ordenes_compra/od_comp_desde_solicitud.png>]
+<imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png, id=778, 900.09pt x 480.267pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png  used on input line 519.
+(pdftex.def)             Requested size: 341.43306pt x 182.18091pt.
+<imgs/Administracion/Ordenes_compra/od_comp_crear_1.png, id=779, 645.612pt x 461.433pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_1.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_1.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_1.png  used on input line 533.
+(pdftex.def)             Requested size: 341.43306pt x 244.03024pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 536.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 536.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[45 <./imgs/Administracion/Ordenes_compra/od_comp_desde_soli_table_2.png>]
+<imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png, id=787, 477.639pt x 509.394pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png  used on input line 542.
+(pdftex.def)             Requested size: 341.43306pt x 364.13622pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 548.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 548.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[46 <./imgs/Administracion/Ordenes_compra/od_comp_crear_1.png> <./imgs/Administracion/Ordenes_compra/od_comp_crear_solicitante.png>]
+<imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png, id=797, 475.23pt x 577.065pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png  used on input line 551.
+(pdftex.def)             Requested size: 341.43306pt x 414.60596pt.
+<imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png, id=798, 653.277pt x 487.932pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png  used on input line 582.
+(pdftex.def)             Requested size: 341.43306pt x 255.02156pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 585.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 585.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[47 <./imgs/Administracion/Ordenes_compra/od_comp_crear_proveedor.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 633.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 633.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[48 <./imgs/Administracion/Ordenes_compra/od_comp_crear_manualmet.png>]
+<imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png, id=815, 476.982pt x 528.228pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png  used on input line 637.
+(pdftex.def)             Requested size: 341.43306pt x 378.12346pt.
+<imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png, id=816, 428.145pt x 546.843pt>
+File: imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png Graphic file (type png)
+<use imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png>
+Package pdftex.def Info: imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png  used on input line 648.
+(pdftex.def)             Requested size: 341.43306pt x 436.10655pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 651.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 651.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[49 <./imgs/Administracion/Ordenes_compra/od_comp_crear_manualmente_solicitante.png>]
+<imgs/Administracion/Entregas_sm/entregas_sm_1.png, id=824, 647.145pt x 472.383pt>
+File: imgs/Administracion/Entregas_sm/entregas_sm_1.png Graphic file (type png)
+<use imgs/Administracion/Entregas_sm/entregas_sm_1.png>
+Package pdftex.def Info: imgs/Administracion/Entregas_sm/entregas_sm_1.png  used on input line 674.
+(pdftex.def)             Requested size: 375.57782pt x 274.15532pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 691.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 691.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[50 <./imgs/Administracion/Ordenes_compra/od_comp_crear_manual_proveedor.png>]
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 719.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 719.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[51 <./imgs/Administracion/Entregas_sm/entregas_sm_1.png>]
+<imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png, id=837, 746.133pt x 282.948pt>
+File: imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png Graphic file (type png)
+<use imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png>
+Package pdftex.def Info: imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png  used on input line 724.
+(pdftex.def)             Requested size: 341.43306pt x 129.4755pt.
+) (content/epp.tex
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 1.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 40.58861pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.58861pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.58861pt}.
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 1.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[52 <./imgs/Administracion/Entregas_sm/entregas_sm_guardar_entregas.png>]
+Cap\'{\i }tulo 4.
+
+
+File: imgs/TextLogo.png Graphic file (type png)
+<use imgs/TextLogo.png>
+Package pdftex.def Info: imgs/TextLogo.png  used on input line 18.
+(pdftex.def)             Requested size: 537.80078pt x 130.66925pt.
+[53
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 22.
+
+<imgs/Almacen_Epp/alm_epp_1.png, id=848, 807.672pt x 476.982pt>
+File: imgs/Almacen_Epp/alm_epp_1.png Graphic file (type png)
+<use imgs/Almacen_Epp/alm_epp_1.png>
+Package pdftex.def Info: imgs/Almacen_Epp/alm_epp_1.png  used on input line 34.
+(pdftex.def)             Requested size: 375.57782pt x 221.8016pt.
+
+
+File: imgs/Logo_Text.png Graphic file (type png)
+<use imgs/Logo_Text.png>
+Package pdftex.def Info: imgs/Logo_Text.png  used on input line 74.
+(pdftex.def)             Requested size: 125.08284pt x 36.98857pt.
+
+Package fancyhdr Warning: \headh
